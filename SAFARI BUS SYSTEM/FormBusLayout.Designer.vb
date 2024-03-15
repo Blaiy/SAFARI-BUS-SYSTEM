@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class FormBusLayout
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormBusLayout))
         Label1 = New Label()
         Label2 = New Label()
         Label7 = New Label()
@@ -725,183 +725,7 @@ Partial Class Form2
         Label13.TabIndex = 137
         Label13.Text = "Selected seats:"
         ' 
-        ' Label14
-        ' 
-        Label14.AutoSize = True
-        Label14.Enabled = False
-        Label14.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label14.Location = New Point(489, 323)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(15, 15)
-        Label14.TabIndex = 138
-        Label14.Text = "A"
-        ' 
-        ' Label15
-        ' 
-        Label15.AutoSize = True
-        Label15.Enabled = False
-        Label15.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label15.Location = New Point(486, 364)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(15, 15)
-        Label15.TabIndex = 139
-        Label15.Text = "B"
-        ' 
-        ' Label16
-        ' 
-        Label16.AutoSize = True
-        Label16.Enabled = False
-        Label16.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label16.Location = New Point(486, 407)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(14, 15)
-        Label16.TabIndex = 140
-        Label16.Text = "C"
-        ' 
-        ' Label17
-        ' 
-        Label17.AutoSize = True
-        Label17.Enabled = False
-        Label17.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label17.Location = New Point(489, 451)
-        Label17.Name = "Label17"
-        Label17.Size = New Size(16, 15)
-        Label17.TabIndex = 141
-        Label17.Text = "D"
-        ' 
-        ' Label18
-        ' 
-        Label18.AutoSize = True
-        Label18.Enabled = False
-        Label18.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label18.Location = New Point(489, 500)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(13, 15)
-        Label18.TabIndex = 142
-        Label18.Text = "E"
-        ' 
-        ' Label19
-        ' 
-        Label19.AutoSize = True
-        Label19.Enabled = False
-        Label19.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label19.Location = New Point(486, 543)
-        Label19.Name = "Label19"
-        Label19.Size = New Size(13, 15)
-        Label19.TabIndex = 143
-        Label19.Text = "F"
-        ' 
-        ' Label20
-        ' 
-        Label20.AutoSize = True
-        Label20.Enabled = False
-        Label20.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label20.Location = New Point(489, 588)
-        Label20.Name = "Label20"
-        Label20.Size = New Size(16, 15)
-        Label20.TabIndex = 144
-        Label20.Text = "G"
-        ' 
-        ' Label21
-        ' 
-        Label21.AutoSize = True
-        Label21.Enabled = False
-        Label21.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label21.Location = New Point(486, 633)
-        Label21.Name = "Label21"
-        Label21.Size = New Size(16, 15)
-        Label21.TabIndex = 145
-        Label21.Text = "H"
-        ' 
-        ' Label22
-        ' 
-        Label22.AutoSize = True
-        Label22.Enabled = False
-        Label22.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label22.Location = New Point(263, 660)
-        Label22.Name = "Label22"
-        Label22.Size = New Size(14, 15)
-        Label22.TabIndex = 146
-        Label22.Text = "1"
-        ' 
-        ' Label23
-        ' 
-        Label23.AutoSize = True
-        Label23.Enabled = False
-        Label23.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label23.Location = New Point(486, 273)
-        Label23.Name = "Label23"
-        Label23.Size = New Size(20, 15)
-        Label23.TabIndex = 147
-        Label23.Text = "Vc"
-        ' 
-        ' Label24
-        ' 
-        Label24.AutoSize = True
-        Label24.Enabled = False
-        Label24.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label24.Location = New Point(489, 222)
-        Label24.Name = "Label24"
-        Label24.Size = New Size(22, 15)
-        Label24.TabIndex = 148
-        Label24.Text = "Vb"
-        ' 
-        ' Label25
-        ' 
-        Label25.AutoSize = True
-        Label25.Enabled = False
-        Label25.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label25.Location = New Point(486, 158)
-        Label25.Name = "Label25"
-        Label25.Size = New Size(20, 15)
-        Label25.TabIndex = 149
-        Label25.Text = "Va"
-        ' 
-        ' Label26
-        ' 
-        Label26.AutoSize = True
-        Label26.Enabled = False
-        Label26.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label26.Location = New Point(458, 660)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(14, 15)
-        Label26.TabIndex = 150
-        Label26.Text = "4"
-        ' 
-        ' Label27
-        ' 
-        Label27.AutoSize = True
-        Label27.Enabled = False
-        Label27.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label27.Location = New Point(421, 660)
-        Label27.Name = "Label27"
-        Label27.Size = New Size(14, 15)
-        Label27.TabIndex = 151
-        Label27.Text = "3"
-        ' 
-        ' Label28
-        ' 
-        Label28.AutoSize = True
-        Label28.Enabled = False
-        Label28.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label28.Location = New Point(366, 660)
-        Label28.Name = "Label28"
-        Label28.Size = New Size(14, 15)
-        Label28.TabIndex = 152
-        Label28.Text = "5"
-        ' 
-        ' Label29
-        ' 
-        Label29.AutoSize = True
-        Label29.Enabled = False
-        Label29.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label29.Location = New Point(305, 660)
-        Label29.Name = "Label29"
-        Label29.Size = New Size(14, 15)
-        Label29.TabIndex = 153
-        Label29.Text = "2"
-        ' 
-        ' Form2
+        ' FormBusLayout
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -979,7 +803,7 @@ Partial Class Form2
         Controls.Add(Label7)
         Controls.Add(Label2)
         Controls.Add(Label1)
-        Name = "Form2"
+        Name = "FormBusLayout"
         Text = "SEAT BOOKINGS"
         CType(H1, ComponentModel.ISupportInitialize).EndInit()
         CType(H2, ComponentModel.ISupportInitialize).EndInit()

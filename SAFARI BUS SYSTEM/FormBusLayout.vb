@@ -1,12 +1,12 @@
-﻿Public Class Form2
+﻿Public Class FormBusLayout
     Dim availableIcon As New System.Drawing.Bitmap(My.Resources.available)
     Dim selectedIcon As New System.Drawing.Bitmap(My.Resources.selected)
 
-    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles Me.Load
+    Private Sub FormLayout_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim c As Control
 
-        For Each c In Me.Controls
-            If TypeOf (c) Is PictureBox Then
+        For Each c In Controls
+            If TypeOf c Is PictureBox Then
                 CType(c, PictureBox).Image = availableIcon
                 AddHandler c.Click, AddressOf A1_Click
             End If
