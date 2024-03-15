@@ -24,17 +24,19 @@ Partial Class Register
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Register))
         Registration = New Label()
-        First_Name = New Label()
-        Last_Name = New Label()
-        Phone_Number = New Label()
-        Email_ID = New Label()
-        Password = New Label()
-        txtFirstName = New TextBox()
-        txtLastName = New TextBox()
-        txtPhoneNumber = New TextBox()
-        txtEmailID = New TextBox()
-        txtPassword = New TextBox()
-        btnRegister = New Button()
+        LblFirstName = New Label()
+        LblLastName = New Label()
+        LblPhoneNo = New Label()
+        LblEmail = New Label()
+        LblPassword = New Label()
+        TxtFirstName = New TextBox()
+        TxtLastName = New TextBox()
+        TxtPhoneNumber = New TextBox()
+        TxtEmail = New TextBox()
+        TxtPassword = New TextBox()
+        BtnRegister = New Button()
+        LblQuestion = New Label()
+        LinkLogIn = New LinkLabel()
         SuspendLayout()
         ' 
         ' Registration
@@ -48,106 +50,132 @@ Partial Class Register
         Registration.TabIndex = 0
         Registration.Text = "Welcome to Safari Coach"
         ' 
-        ' First_Name
+        ' LblFirstName
         ' 
-        First_Name.AutoSize = True
-        First_Name.BackColor = Color.Teal
-        First_Name.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        First_Name.Location = New Point(89, 125)
-        First_Name.Name = "First_Name"
-        First_Name.Size = New Size(101, 24)
-        First_Name.TabIndex = 1
-        First_Name.Text = "First Name"
+        LblFirstName.AutoSize = True
+        LblFirstName.BackColor = Color.Teal
+        LblFirstName.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        LblFirstName.Location = New Point(89, 125)
+        LblFirstName.Name = "LblFirstName"
+        LblFirstName.Size = New Size(101, 24)
+        LblFirstName.TabIndex = 1
+        LblFirstName.Text = "First Name"
         ' 
-        ' Last_Name
+        ' LblLastName
         ' 
-        Last_Name.AutoSize = True
-        Last_Name.BackColor = Color.Teal
-        Last_Name.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Last_Name.Location = New Point(89, 193)
-        Last_Name.Name = "Last_Name"
-        Last_Name.Size = New Size(99, 24)
-        Last_Name.TabIndex = 2
-        Last_Name.Text = "Last Name"
+        LblLastName.AutoSize = True
+        LblLastName.BackColor = Color.Teal
+        LblLastName.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        LblLastName.Location = New Point(89, 193)
+        LblLastName.Name = "LblLastName"
+        LblLastName.Size = New Size(99, 24)
+        LblLastName.TabIndex = 2
+        LblLastName.Text = "Last Name"
         ' 
-        ' Phone_Number
+        ' LblPhoneNo
         ' 
-        Phone_Number.AutoSize = True
-        Phone_Number.BackColor = Color.Teal
-        Phone_Number.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Phone_Number.Location = New Point(89, 259)
-        Phone_Number.Name = "Phone_Number"
-        Phone_Number.Size = New Size(140, 24)
-        Phone_Number.TabIndex = 4
-        Phone_Number.Text = "Phone Number"
+        LblPhoneNo.AutoSize = True
+        LblPhoneNo.BackColor = Color.Teal
+        LblPhoneNo.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        LblPhoneNo.Location = New Point(89, 259)
+        LblPhoneNo.Name = "LblPhoneNo"
+        LblPhoneNo.Size = New Size(140, 24)
+        LblPhoneNo.TabIndex = 4
+        LblPhoneNo.Text = "Phone Number"
         ' 
-        ' Email_ID
+        ' LblEmail
         ' 
-        Email_ID.AutoSize = True
-        Email_ID.BackColor = Color.Teal
-        Email_ID.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Email_ID.Location = New Point(89, 322)
-        Email_ID.Name = "Email_ID"
-        Email_ID.Size = New Size(79, 24)
-        Email_ID.TabIndex = 5
-        Email_ID.Text = "Email ID"
+        LblEmail.AutoSize = True
+        LblEmail.BackColor = Color.Teal
+        LblEmail.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        LblEmail.Location = New Point(89, 322)
+        LblEmail.Name = "LblEmail"
+        LblEmail.Size = New Size(62, 24)
+        LblEmail.TabIndex = 5
+        LblEmail.Text = "Email "
         ' 
-        ' Password
+        ' LblPassword
         ' 
-        Password.AutoSize = True
-        Password.BackColor = Color.Teal
-        Password.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Password.Location = New Point(89, 388)
-        Password.Name = "Password"
-        Password.Size = New Size(92, 24)
-        Password.TabIndex = 6
-        Password.Text = "Password"
+        LblPassword.AutoSize = True
+        LblPassword.BackColor = Color.Teal
+        LblPassword.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        LblPassword.Location = New Point(89, 388)
+        LblPassword.Name = "LblPassword"
+        LblPassword.Size = New Size(92, 24)
+        LblPassword.TabIndex = 6
+        LblPassword.Text = "Password"
         ' 
-        ' txtFirstName
+        ' TxtFirstName
         ' 
-        txtFirstName.Location = New Point(296, 125)
-        txtFirstName.Name = "txtFirstName"
-        txtFirstName.Size = New Size(214, 23)
-        txtFirstName.TabIndex = 7
+        TxtFirstName.Location = New Point(267, 129)
+        TxtFirstName.Name = "TxtFirstName"
+        TxtFirstName.Size = New Size(214, 23)
+        TxtFirstName.TabIndex = 7
         ' 
-        ' txtLastName
+        ' TxtLastName
         ' 
-        txtLastName.Location = New Point(296, 193)
-        txtLastName.Name = "txtLastName"
-        txtLastName.Size = New Size(214, 23)
-        txtLastName.TabIndex = 8
+        TxtLastName.Location = New Point(267, 197)
+        TxtLastName.Name = "TxtLastName"
+        TxtLastName.Size = New Size(214, 23)
+        TxtLastName.TabIndex = 8
         ' 
-        ' txtPhoneNumber
+        ' TxtPhoneNumber
         ' 
-        txtPhoneNumber.Location = New Point(296, 263)
-        txtPhoneNumber.Name = "txtPhoneNumber"
-        txtPhoneNumber.Size = New Size(214, 23)
-        txtPhoneNumber.TabIndex = 9
+        TxtPhoneNumber.Location = New Point(267, 263)
+        TxtPhoneNumber.Name = "TxtPhoneNumber"
+        TxtPhoneNumber.Size = New Size(214, 23)
+        TxtPhoneNumber.TabIndex = 9
         ' 
-        ' txtEmailID
+        ' TxtEmail
         ' 
-        txtEmailID.Location = New Point(296, 326)
-        txtEmailID.Name = "txtEmailID"
-        txtEmailID.Size = New Size(214, 23)
-        txtEmailID.TabIndex = 10
+        TxtEmail.Location = New Point(267, 326)
+        TxtEmail.Name = "TxtEmail"
+        TxtEmail.Size = New Size(214, 23)
+        TxtEmail.TabIndex = 10
         ' 
-        ' txtPassword
+        ' TxtPassword
         ' 
-        txtPassword.Location = New Point(296, 392)
-        txtPassword.Name = "txtPassword"
-        txtPassword.Size = New Size(214, 23)
-        txtPassword.TabIndex = 11
+        TxtPassword.Location = New Point(267, 392)
+        TxtPassword.Name = "TxtPassword"
+        TxtPassword.Size = New Size(214, 23)
+        TxtPassword.TabIndex = 11
         ' 
-        ' btnRegister
+        ' BtnRegister
         ' 
-        btnRegister.BackColor = Color.Goldenrod
-        btnRegister.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        btnRegister.Location = New Point(170, 457)
-        btnRegister.Name = "btnRegister"
-        btnRegister.Size = New Size(201, 39)
-        btnRegister.TabIndex = 13
-        btnRegister.Text = "Register"
-        btnRegister.UseVisualStyleBackColor = False
+        BtnRegister.BackColor = Color.Goldenrod
+        BtnRegister.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        BtnRegister.Location = New Point(181, 450)
+        BtnRegister.Name = "BtnRegister"
+        BtnRegister.Size = New Size(201, 39)
+        BtnRegister.TabIndex = 13
+        BtnRegister.Text = "Register"
+        BtnRegister.UseVisualStyleBackColor = False
+        ' 
+        ' LblQuestion
+        ' 
+        LblQuestion.AutoSize = True
+        LblQuestion.BackColor = Color.Transparent
+        LblQuestion.Font = New Font("Segoe UI", 11.25F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        LblQuestion.ForeColor = SystemColors.ButtonFace
+        LblQuestion.Location = New Point(169, 512)
+        LblQuestion.Name = "LblQuestion"
+        LblQuestion.Size = New Size(172, 20)
+        LblQuestion.TabIndex = 14
+        LblQuestion.Text = "Already have an account?"
+        ' 
+        ' LinkLogIn
+        ' 
+        LinkLogIn.AutoSize = True
+        LinkLogIn.BackColor = Color.Transparent
+        LinkLogIn.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        LinkLogIn.ForeColor = SystemColors.Control
+        LinkLogIn.LinkColor = Color.White
+        LinkLogIn.Location = New Point(347, 512)
+        LinkLogIn.Name = "LinkLogIn"
+        LinkLogIn.Size = New Size(46, 20)
+        LinkLogIn.TabIndex = 15
+        LinkLogIn.TabStop = True
+        LinkLogIn.Text = "Login"
         ' 
         ' Register
         ' 
@@ -157,35 +185,40 @@ Partial Class Register
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Center
         ClientSize = New Size(606, 558)
-        Controls.Add(btnRegister)
-        Controls.Add(txtPassword)
-        Controls.Add(txtEmailID)
-        Controls.Add(txtPhoneNumber)
-        Controls.Add(txtLastName)
-        Controls.Add(txtFirstName)
-        Controls.Add(Password)
-        Controls.Add(Email_ID)
-        Controls.Add(Phone_Number)
-        Controls.Add(Last_Name)
-        Controls.Add(First_Name)
+        Controls.Add(LinkLogIn)
+        Controls.Add(LblQuestion)
+        Controls.Add(BtnRegister)
+        Controls.Add(TxtPassword)
+        Controls.Add(TxtEmail)
+        Controls.Add(TxtPhoneNumber)
+        Controls.Add(TxtLastName)
+        Controls.Add(TxtFirstName)
+        Controls.Add(LblPassword)
+        Controls.Add(LblEmail)
+        Controls.Add(LblPhoneNo)
+        Controls.Add(LblLastName)
+        Controls.Add(LblFirstName)
         Controls.Add(Registration)
-        ForeColor = SystemColors.ButtonFace
+        ForeColor = SystemColors.Control
         Name = "Register"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Register"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents Registration As Label
-    Friend WithEvents First_Name As Label
-    Friend WithEvents Last_Name As Label
-    Friend WithEvents Phone_Number As Label
-    Friend WithEvents Email_ID As Label
-    Friend WithEvents Password As Label
-    Friend WithEvents txtFirstName As TextBox
-    Friend WithEvents txtLastName As TextBox
-    Friend WithEvents txtPhoneNumber As TextBox
-    Friend WithEvents txtEmailID As TextBox
-    Friend WithEvents txtPassword As TextBox
-    Friend WithEvents btnRegister As Button
+    Friend WithEvents LblFirstName As Label
+    Friend WithEvents LblLastName As Label
+    Friend WithEvents LblPhoneNo As Label
+    Friend WithEvents LblEmail As Label
+    Friend WithEvents LblPassword As Label
+    Friend WithEvents TxtFirstName As TextBox
+    Friend WithEvents TxtLastName As TextBox
+    Friend WithEvents TxtPhoneNumber As TextBox
+    Friend WithEvents TxtEmail As TextBox
+    Friend WithEvents TxtPassword As TextBox
+    Friend WithEvents BtnRegister As Button
+    Friend WithEvents LblQuestion As Label
+    Friend WithEvents LinkLogIn As LinkLabel
 End Class
