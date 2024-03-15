@@ -26,7 +26,6 @@ Partial Class Register
         Registration = New Label()
         First_Name = New Label()
         Last_Name = New Label()
-        Gender = New Label()
         Phone_Number = New Label()
         Email_ID = New Label()
         Password = New Label()
@@ -35,27 +34,26 @@ Partial Class Register
         txtPhoneNumber = New TextBox()
         txtEmailID = New TextBox()
         txtPassword = New TextBox()
-        txtGender = New ComboBox()
         btnRegister = New Button()
         SuspendLayout()
         ' 
         ' Registration
         ' 
         Registration.AutoSize = True
-        Registration.BackColor = Color.Lime
-        Registration.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Registration.Location = New Point(402, 22)
+        Registration.BackColor = Color.DarkCyan
+        Registration.Font = New Font("Cambria", 20.25F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        Registration.Location = New Point(118, 36)
         Registration.Name = "Registration"
-        Registration.Size = New Size(142, 29)
+        Registration.Size = New Size(311, 32)
         Registration.TabIndex = 0
-        Registration.Text = "Registration"
+        Registration.Text = "Welcome to Safari Coach"
         ' 
         ' First_Name
         ' 
         First_Name.AutoSize = True
-        First_Name.BackColor = Color.Lime
+        First_Name.BackColor = Color.Teal
         First_Name.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        First_Name.Location = New Point(228, 76)
+        First_Name.Location = New Point(89, 125)
         First_Name.Name = "First_Name"
         First_Name.Size = New Size(101, 24)
         First_Name.TabIndex = 1
@@ -64,31 +62,20 @@ Partial Class Register
         ' Last_Name
         ' 
         Last_Name.AutoSize = True
-        Last_Name.BackColor = Color.Lime
+        Last_Name.BackColor = Color.Teal
         Last_Name.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Last_Name.Location = New Point(228, 133)
+        Last_Name.Location = New Point(89, 193)
         Last_Name.Name = "Last_Name"
         Last_Name.Size = New Size(99, 24)
         Last_Name.TabIndex = 2
         Last_Name.Text = "Last Name"
         ' 
-        ' Gender
-        ' 
-        Gender.AutoSize = True
-        Gender.BackColor = Color.Lime
-        Gender.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Gender.Location = New Point(228, 196)
-        Gender.Name = "Gender"
-        Gender.Size = New Size(74, 24)
-        Gender.TabIndex = 3
-        Gender.Text = "Gender"
-        ' 
         ' Phone_Number
         ' 
         Phone_Number.AutoSize = True
-        Phone_Number.BackColor = Color.Lime
+        Phone_Number.BackColor = Color.Teal
         Phone_Number.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Phone_Number.Location = New Point(228, 262)
+        Phone_Number.Location = New Point(89, 259)
         Phone_Number.Name = "Phone_Number"
         Phone_Number.Size = New Size(140, 24)
         Phone_Number.TabIndex = 4
@@ -97,9 +84,9 @@ Partial Class Register
         ' Email_ID
         ' 
         Email_ID.AutoSize = True
-        Email_ID.BackColor = Color.Lime
+        Email_ID.BackColor = Color.Teal
         Email_ID.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Email_ID.Location = New Point(228, 325)
+        Email_ID.Location = New Point(89, 322)
         Email_ID.Name = "Email_ID"
         Email_ID.Size = New Size(79, 24)
         Email_ID.TabIndex = 5
@@ -108,9 +95,9 @@ Partial Class Register
         ' Password
         ' 
         Password.AutoSize = True
-        Password.BackColor = Color.Lime
+        Password.BackColor = Color.Teal
         Password.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Password.Location = New Point(228, 390)
+        Password.Location = New Point(89, 388)
         Password.Name = "Password"
         Password.Size = New Size(92, 24)
         Password.TabIndex = 6
@@ -118,53 +105,44 @@ Partial Class Register
         ' 
         ' txtFirstName
         ' 
-        txtFirstName.Location = New Point(468, 76)
+        txtFirstName.Location = New Point(296, 125)
         txtFirstName.Name = "txtFirstName"
         txtFirstName.Size = New Size(214, 23)
         txtFirstName.TabIndex = 7
         ' 
         ' txtLastName
         ' 
-        txtLastName.Location = New Point(468, 133)
+        txtLastName.Location = New Point(296, 193)
         txtLastName.Name = "txtLastName"
         txtLastName.Size = New Size(214, 23)
         txtLastName.TabIndex = 8
         ' 
         ' txtPhoneNumber
         ' 
-        txtPhoneNumber.Location = New Point(468, 262)
+        txtPhoneNumber.Location = New Point(296, 263)
         txtPhoneNumber.Name = "txtPhoneNumber"
         txtPhoneNumber.Size = New Size(214, 23)
         txtPhoneNumber.TabIndex = 9
         ' 
         ' txtEmailID
         ' 
-        txtEmailID.Location = New Point(468, 325)
+        txtEmailID.Location = New Point(296, 326)
         txtEmailID.Name = "txtEmailID"
         txtEmailID.Size = New Size(214, 23)
         txtEmailID.TabIndex = 10
         ' 
         ' txtPassword
         ' 
-        txtPassword.Location = New Point(468, 391)
+        txtPassword.Location = New Point(296, 392)
         txtPassword.Name = "txtPassword"
         txtPassword.Size = New Size(214, 23)
         txtPassword.TabIndex = 11
         ' 
-        ' txtGender
-        ' 
-        txtGender.FormattingEnabled = True
-        txtGender.Items.AddRange(New Object() {"Male", "Female", "Others"})
-        txtGender.Location = New Point(468, 196)
-        txtGender.Name = "txtGender"
-        txtGender.Size = New Size(214, 23)
-        txtGender.TabIndex = 12
-        ' 
         ' btnRegister
         ' 
-        btnRegister.BackColor = Color.Red
+        btnRegister.BackColor = Color.Goldenrod
         btnRegister.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        btnRegister.Location = New Point(332, 439)
+        btnRegister.Location = New Point(170, 457)
         btnRegister.Name = "btnRegister"
         btnRegister.Size = New Size(201, 39)
         btnRegister.TabIndex = 13
@@ -175,11 +153,11 @@ Partial Class Register
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ControlLight
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
-        BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(951, 508)
+        BackgroundImageLayout = ImageLayout.Center
+        ClientSize = New Size(606, 558)
         Controls.Add(btnRegister)
-        Controls.Add(txtGender)
         Controls.Add(txtPassword)
         Controls.Add(txtEmailID)
         Controls.Add(txtPhoneNumber)
@@ -188,10 +166,10 @@ Partial Class Register
         Controls.Add(Password)
         Controls.Add(Email_ID)
         Controls.Add(Phone_Number)
-        Controls.Add(Gender)
         Controls.Add(Last_Name)
         Controls.Add(First_Name)
         Controls.Add(Registration)
+        ForeColor = SystemColors.ButtonFace
         Name = "Register"
         Text = "Register"
         ResumeLayout(False)
@@ -201,7 +179,6 @@ Partial Class Register
     Friend WithEvents Registration As Label
     Friend WithEvents First_Name As Label
     Friend WithEvents Last_Name As Label
-    Friend WithEvents Gender As Label
     Friend WithEvents Phone_Number As Label
     Friend WithEvents Email_ID As Label
     Friend WithEvents Password As Label
@@ -210,6 +187,5 @@ Partial Class Register
     Friend WithEvents txtPhoneNumber As TextBox
     Friend WithEvents txtEmailID As TextBox
     Friend WithEvents txtPassword As TextBox
-    Friend WithEvents txtGender As ComboBox
     Friend WithEvents btnRegister As Button
 End Class
