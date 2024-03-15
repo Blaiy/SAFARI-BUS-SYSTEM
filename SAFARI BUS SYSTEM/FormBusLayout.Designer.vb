@@ -27,48 +27,48 @@ Partial Class FormBusLayout
         Label2 = New Label()
         Label7 = New Label()
         Label11 = New Label()
-        PictureBox1 = New PictureBox()
-        PictureBox2 = New PictureBox()
-        PictureBox3 = New PictureBox()
-        PictureBox4 = New PictureBox()
-        PictureBox5 = New PictureBox()
-        PictureBox6 = New PictureBox()
-        PictureBox7 = New PictureBox()
-        PictureBox8 = New PictureBox()
-        PictureBox9 = New PictureBox()
-        PictureBox10 = New PictureBox()
-        PictureBox11 = New PictureBox()
-        PictureBox12 = New PictureBox()
-        PictureBox13 = New PictureBox()
-        PictureBox14 = New PictureBox()
-        PictureBox15 = New PictureBox()
-        PictureBox16 = New PictureBox()
-        PictureBox17 = New PictureBox()
-        PictureBox18 = New PictureBox()
-        PictureBox19 = New PictureBox()
-        PictureBox20 = New PictureBox()
-        PictureBox21 = New PictureBox()
-        PictureBox22 = New PictureBox()
-        PictureBox23 = New PictureBox()
-        PictureBox24 = New PictureBox()
-        PictureBox25 = New PictureBox()
-        PictureBox26 = New PictureBox()
-        PictureBox27 = New PictureBox()
-        PictureBox28 = New PictureBox()
-        PictureBox29 = New PictureBox()
-        PictureBox30 = New PictureBox()
-        PictureBox31 = New PictureBox()
-        PictureBox32 = New PictureBox()
-        PictureBox33 = New PictureBox()
-        PictureBox34 = New PictureBox()
-        PictureBox35 = New PictureBox()
-        PictureBox36 = New PictureBox()
-        PictureBox37 = New PictureBox()
-        PictureBox38 = New PictureBox()
-        PictureBox39 = New PictureBox()
-        PictureBox40 = New PictureBox()
-        PictureBox41 = New PictureBox()
-        PictureBox42 = New PictureBox()
+        H1 = New PictureBox()
+        H2 = New PictureBox()
+        G1 = New PictureBox()
+        G2 = New PictureBox()
+        F1 = New PictureBox()
+        F2 = New PictureBox()
+        E1 = New PictureBox()
+        E2 = New PictureBox()
+        D1 = New PictureBox()
+        D2 = New PictureBox()
+        C1 = New PictureBox()
+        C2 = New PictureBox()
+        B1 = New PictureBox()
+        B2 = New PictureBox()
+        A1 = New PictureBox()
+        A2 = New PictureBox()
+        Vc1 = New PictureBox()
+        Vb1 = New PictureBox()
+        Va1 = New PictureBox()
+        H5 = New PictureBox()
+        Va2 = New PictureBox()
+        Va3 = New PictureBox()
+        Vb2 = New PictureBox()
+        Vb3 = New PictureBox()
+        Vc2 = New PictureBox()
+        Vc3 = New PictureBox()
+        A3 = New PictureBox()
+        A4 = New PictureBox()
+        B3 = New PictureBox()
+        B4 = New PictureBox()
+        C3 = New PictureBox()
+        C4 = New PictureBox()
+        D3 = New PictureBox()
+        D4 = New PictureBox()
+        E3 = New PictureBox()
+        E4 = New PictureBox()
+        F3 = New PictureBox()
+        F4 = New PictureBox()
+        G3 = New PictureBox()
+        G4 = New PictureBox()
+        H3 = New PictureBox()
+        H4 = New PictureBox()
         Label3 = New Label()
         Label4 = New Label()
         Label5 = New Label()
@@ -80,48 +80,64 @@ Partial Class FormBusLayout
         Label10 = New Label()
         Label12 = New Label()
         Label13 = New Label()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox13, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox14, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox15, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox16, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox17, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox18, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox19, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox20, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox21, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox22, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox23, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox24, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox25, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox26, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox27, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox28, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox29, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox30, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox31, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox32, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox33, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox34, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox35, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox36, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox37, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox38, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox39, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox40, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox41, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox42, ComponentModel.ISupportInitialize).BeginInit()
+        Label14 = New Label()
+        Label15 = New Label()
+        Label16 = New Label()
+        Label17 = New Label()
+        Label18 = New Label()
+        Label19 = New Label()
+        Label20 = New Label()
+        Label21 = New Label()
+        Label22 = New Label()
+        Label23 = New Label()
+        Label24 = New Label()
+        Label25 = New Label()
+        Label26 = New Label()
+        Label27 = New Label()
+        Label28 = New Label()
+        Label29 = New Label()
+        CType(H1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(H2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(G1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(G2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(F1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(F2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(E1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(E2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(D1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(D2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(C1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(C2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(B1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(B2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(A1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(A2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Vc1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Vb1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Va1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(H5, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Va2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Va3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Vb2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Vb3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Vc2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Vc3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(A3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(A4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(B3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(B4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(C3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(C4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(D3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(D4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(E3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(E4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(F3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(F4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(G3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(G4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(H3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(H4, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label1
@@ -175,425 +191,425 @@ Partial Class FormBusLayout
         Label11.TabIndex = 84
         Label11.Text = "DOOR"
         ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.BackColor = Color.DarkCyan
-        PictureBox1.Image = My.Resources.Resources.available
-        PictureBox1.Location = New Point(258, 619)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(35, 38)
-        PictureBox1.TabIndex = 85
-        PictureBox1.TabStop = False
-        ' 
-        ' PictureBox2
-        ' 
-        PictureBox2.BackColor = Color.DarkCyan
-        PictureBox2.Image = My.Resources.Resources.available
-        PictureBox2.Location = New Point(299, 619)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(35, 38)
-        PictureBox2.TabIndex = 86
-        PictureBox2.TabStop = False
-        ' 
-        ' PictureBox3
-        ' 
-        PictureBox3.BackColor = Color.DarkCyan
-        PictureBox3.Image = My.Resources.Resources.available
-        PictureBox3.Location = New Point(258, 575)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(35, 38)
-        PictureBox3.TabIndex = 87
-        PictureBox3.TabStop = False
-        ' 
-        ' PictureBox4
-        ' 
-        PictureBox4.BackColor = Color.DarkCyan
-        PictureBox4.Image = My.Resources.Resources.available
-        PictureBox4.Location = New Point(299, 575)
-        PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(35, 38)
-        PictureBox4.TabIndex = 88
-        PictureBox4.TabStop = False
-        ' 
-        ' PictureBox5
-        ' 
-        PictureBox5.BackColor = Color.DarkCyan
-        PictureBox5.Image = My.Resources.Resources.available
-        PictureBox5.Location = New Point(258, 531)
-        PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(35, 38)
-        PictureBox5.TabIndex = 89
-        PictureBox5.TabStop = False
-        ' 
-        ' PictureBox6
-        ' 
-        PictureBox6.BackColor = Color.DarkCyan
-        PictureBox6.Image = My.Resources.Resources.available
-        PictureBox6.Location = New Point(299, 531)
-        PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(35, 38)
-        PictureBox6.TabIndex = 90
-        PictureBox6.TabStop = False
-        ' 
-        ' PictureBox7
-        ' 
-        PictureBox7.BackColor = Color.DarkCyan
-        PictureBox7.Image = My.Resources.Resources.available
-        PictureBox7.Location = New Point(258, 487)
-        PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(35, 38)
-        PictureBox7.TabIndex = 91
-        PictureBox7.TabStop = False
-        ' 
-        ' PictureBox8
-        ' 
-        PictureBox8.BackColor = Color.DarkCyan
-        PictureBox8.Image = My.Resources.Resources.available
-        PictureBox8.Location = New Point(299, 487)
-        PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(35, 38)
-        PictureBox8.TabIndex = 92
-        PictureBox8.TabStop = False
-        ' 
-        ' PictureBox9
-        ' 
-        PictureBox9.BackColor = Color.DarkCyan
-        PictureBox9.Image = My.Resources.Resources.available
-        PictureBox9.Location = New Point(258, 443)
-        PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(35, 38)
-        PictureBox9.TabIndex = 93
-        PictureBox9.TabStop = False
-        ' 
-        ' PictureBox10
-        ' 
-        PictureBox10.BackColor = Color.DarkCyan
-        PictureBox10.Image = My.Resources.Resources.available
-        PictureBox10.Location = New Point(299, 443)
-        PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(35, 38)
-        PictureBox10.TabIndex = 94
-        PictureBox10.TabStop = False
-        ' 
-        ' PictureBox11
-        ' 
-        PictureBox11.BackColor = Color.DarkCyan
-        PictureBox11.Image = My.Resources.Resources.available
-        PictureBox11.Location = New Point(258, 399)
-        PictureBox11.Name = "PictureBox11"
-        PictureBox11.Size = New Size(35, 38)
-        PictureBox11.TabIndex = 95
-        PictureBox11.TabStop = False
-        ' 
-        ' PictureBox12
-        ' 
-        PictureBox12.BackColor = Color.DarkCyan
-        PictureBox12.Image = My.Resources.Resources.available
-        PictureBox12.Location = New Point(299, 399)
-        PictureBox12.Name = "PictureBox12"
-        PictureBox12.Size = New Size(35, 38)
-        PictureBox12.TabIndex = 96
-        PictureBox12.TabStop = False
-        ' 
-        ' PictureBox13
-        ' 
-        PictureBox13.BackColor = Color.DarkCyan
-        PictureBox13.Image = My.Resources.Resources.available
-        PictureBox13.Location = New Point(258, 355)
-        PictureBox13.Name = "PictureBox13"
-        PictureBox13.Size = New Size(35, 38)
-        PictureBox13.TabIndex = 97
-        PictureBox13.TabStop = False
-        ' 
-        ' PictureBox14
-        ' 
-        PictureBox14.BackColor = Color.DarkCyan
-        PictureBox14.Image = My.Resources.Resources.available
-        PictureBox14.Location = New Point(299, 355)
-        PictureBox14.Name = "PictureBox14"
-        PictureBox14.Size = New Size(35, 38)
-        PictureBox14.TabIndex = 98
-        PictureBox14.TabStop = False
-        ' 
-        ' PictureBox15
-        ' 
-        PictureBox15.BackColor = Color.DarkCyan
-        PictureBox15.Image = My.Resources.Resources.available
-        PictureBox15.Location = New Point(258, 311)
-        PictureBox15.Name = "PictureBox15"
-        PictureBox15.Size = New Size(35, 38)
-        PictureBox15.TabIndex = 99
-        PictureBox15.TabStop = False
-        ' 
-        ' PictureBox16
-        ' 
-        PictureBox16.BackColor = Color.DarkCyan
-        PictureBox16.Image = My.Resources.Resources.available
-        PictureBox16.Location = New Point(299, 311)
-        PictureBox16.Name = "PictureBox16"
-        PictureBox16.Size = New Size(35, 38)
-        PictureBox16.TabIndex = 100
-        PictureBox16.TabStop = False
-        ' 
-        ' PictureBox17
-        ' 
-        PictureBox17.BackColor = Color.Navy
-        PictureBox17.Image = My.Resources.Resources.available
-        PictureBox17.Location = New Point(258, 252)
-        PictureBox17.Name = "PictureBox17"
-        PictureBox17.Size = New Size(35, 38)
-        PictureBox17.TabIndex = 101
-        PictureBox17.TabStop = False
-        ' 
-        ' PictureBox18
-        ' 
-        PictureBox18.BackColor = Color.Navy
-        PictureBox18.Image = My.Resources.Resources.available
-        PictureBox18.Location = New Point(258, 199)
-        PictureBox18.Name = "PictureBox18"
-        PictureBox18.Size = New Size(35, 38)
-        PictureBox18.TabIndex = 102
-        PictureBox18.TabStop = False
-        ' 
-        ' PictureBox19
-        ' 
-        PictureBox19.BackColor = Color.Navy
-        PictureBox19.Image = My.Resources.Resources.available
-        PictureBox19.Location = New Point(258, 144)
-        PictureBox19.Name = "PictureBox19"
-        PictureBox19.Size = New Size(35, 38)
-        PictureBox19.TabIndex = 103
-        PictureBox19.TabStop = False
-        ' 
-        ' PictureBox20
-        ' 
-        PictureBox20.BackColor = Color.DarkCyan
-        PictureBox20.Image = My.Resources.Resources.available
-        PictureBox20.Location = New Point(354, 619)
-        PictureBox20.Name = "PictureBox20"
-        PictureBox20.Size = New Size(35, 38)
-        PictureBox20.TabIndex = 104
-        PictureBox20.TabStop = False
-        ' 
-        ' PictureBox21
-        ' 
-        PictureBox21.BackColor = Color.Navy
-        PictureBox21.Image = My.Resources.Resources.available
-        PictureBox21.Location = New Point(385, 144)
-        PictureBox21.Name = "PictureBox21"
-        PictureBox21.Size = New Size(35, 38)
-        PictureBox21.TabIndex = 123
-        PictureBox21.TabStop = False
-        ' 
-        ' PictureBox22
-        ' 
-        PictureBox22.BackColor = Color.Navy
-        PictureBox22.Image = My.Resources.Resources.available
-        PictureBox22.Location = New Point(448, 144)
-        PictureBox22.Name = "PictureBox22"
-        PictureBox22.Size = New Size(35, 38)
-        PictureBox22.TabIndex = 122
-        PictureBox22.TabStop = False
-        ' 
-        ' PictureBox23
-        ' 
-        PictureBox23.BackColor = Color.Navy
-        PictureBox23.Image = My.Resources.Resources.available
-        PictureBox23.Location = New Point(385, 199)
-        PictureBox23.Name = "PictureBox23"
-        PictureBox23.Size = New Size(35, 38)
-        PictureBox23.TabIndex = 121
-        PictureBox23.TabStop = False
-        ' 
-        ' PictureBox24
-        ' 
-        PictureBox24.BackColor = Color.Navy
-        PictureBox24.Image = My.Resources.Resources.available
-        PictureBox24.Location = New Point(448, 199)
-        PictureBox24.Name = "PictureBox24"
-        PictureBox24.Size = New Size(35, 38)
-        PictureBox24.TabIndex = 120
-        PictureBox24.TabStop = False
-        ' 
-        ' PictureBox25
-        ' 
-        PictureBox25.BackColor = Color.Navy
-        PictureBox25.Image = My.Resources.Resources.available
-        PictureBox25.Location = New Point(385, 252)
-        PictureBox25.Name = "PictureBox25"
-        PictureBox25.Size = New Size(35, 38)
-        PictureBox25.TabIndex = 119
-        PictureBox25.TabStop = False
-        ' 
-        ' PictureBox26
-        ' 
-        PictureBox26.BackColor = Color.Navy
-        PictureBox26.Image = My.Resources.Resources.available
-        PictureBox26.Location = New Point(448, 252)
-        PictureBox26.Name = "PictureBox26"
-        PictureBox26.Size = New Size(35, 38)
-        PictureBox26.TabIndex = 118
-        PictureBox26.TabStop = False
-        ' 
-        ' PictureBox27
-        ' 
-        PictureBox27.BackColor = Color.DarkCyan
-        PictureBox27.Image = My.Resources.Resources.available
-        PictureBox27.Location = New Point(407, 311)
-        PictureBox27.Name = "PictureBox27"
-        PictureBox27.Size = New Size(35, 38)
-        PictureBox27.TabIndex = 117
-        PictureBox27.TabStop = False
-        ' 
-        ' PictureBox28
-        ' 
-        PictureBox28.BackColor = Color.DarkCyan
-        PictureBox28.Image = My.Resources.Resources.available
-        PictureBox28.Location = New Point(448, 311)
-        PictureBox28.Name = "PictureBox28"
-        PictureBox28.Size = New Size(35, 38)
-        PictureBox28.TabIndex = 116
-        PictureBox28.TabStop = False
-        ' 
-        ' PictureBox29
-        ' 
-        PictureBox29.BackColor = Color.DarkCyan
-        PictureBox29.Image = My.Resources.Resources.available
-        PictureBox29.Location = New Point(407, 355)
-        PictureBox29.Name = "PictureBox29"
-        PictureBox29.Size = New Size(35, 38)
-        PictureBox29.TabIndex = 115
-        PictureBox29.TabStop = False
-        ' 
-        ' PictureBox30
-        ' 
-        PictureBox30.BackColor = Color.DarkCyan
-        PictureBox30.Image = My.Resources.Resources.available
-        PictureBox30.Location = New Point(448, 355)
-        PictureBox30.Name = "PictureBox30"
-        PictureBox30.Size = New Size(35, 38)
-        PictureBox30.TabIndex = 114
-        PictureBox30.TabStop = False
-        ' 
-        ' PictureBox31
-        ' 
-        PictureBox31.BackColor = Color.DarkCyan
-        PictureBox31.Image = My.Resources.Resources.available
-        PictureBox31.Location = New Point(407, 399)
-        PictureBox31.Name = "PictureBox31"
-        PictureBox31.Size = New Size(35, 38)
-        PictureBox31.TabIndex = 113
-        PictureBox31.TabStop = False
-        ' 
-        ' PictureBox32
-        ' 
-        PictureBox32.BackColor = Color.DarkCyan
-        PictureBox32.Image = My.Resources.Resources.available
-        PictureBox32.Location = New Point(448, 399)
-        PictureBox32.Name = "PictureBox32"
-        PictureBox32.Size = New Size(35, 38)
-        PictureBox32.TabIndex = 112
-        PictureBox32.TabStop = False
-        ' 
-        ' PictureBox33
-        ' 
-        PictureBox33.BackColor = Color.DarkCyan
-        PictureBox33.Image = My.Resources.Resources.available
-        PictureBox33.Location = New Point(407, 443)
-        PictureBox33.Name = "PictureBox33"
-        PictureBox33.Size = New Size(35, 38)
-        PictureBox33.TabIndex = 111
-        PictureBox33.TabStop = False
-        ' 
-        ' PictureBox34
-        ' 
-        PictureBox34.BackColor = Color.DarkCyan
-        PictureBox34.Image = My.Resources.Resources.available
-        PictureBox34.Location = New Point(448, 443)
-        PictureBox34.Name = "PictureBox34"
-        PictureBox34.Size = New Size(35, 38)
-        PictureBox34.TabIndex = 110
-        PictureBox34.TabStop = False
-        ' 
-        ' PictureBox35
-        ' 
-        PictureBox35.BackColor = Color.DarkCyan
-        PictureBox35.Image = My.Resources.Resources.available
-        PictureBox35.Location = New Point(407, 487)
-        PictureBox35.Name = "PictureBox35"
-        PictureBox35.Size = New Size(35, 38)
-        PictureBox35.TabIndex = 109
-        PictureBox35.TabStop = False
-        ' 
-        ' PictureBox36
-        ' 
-        PictureBox36.BackColor = Color.DarkCyan
-        PictureBox36.Image = My.Resources.Resources.available
-        PictureBox36.Location = New Point(448, 487)
-        PictureBox36.Name = "PictureBox36"
-        PictureBox36.Size = New Size(35, 38)
-        PictureBox36.TabIndex = 108
-        PictureBox36.TabStop = False
-        ' 
-        ' PictureBox37
-        ' 
-        PictureBox37.BackColor = Color.DarkCyan
-        PictureBox37.Image = My.Resources.Resources.available
-        PictureBox37.Location = New Point(407, 531)
-        PictureBox37.Name = "PictureBox37"
-        PictureBox37.Size = New Size(35, 38)
-        PictureBox37.TabIndex = 107
-        PictureBox37.TabStop = False
-        ' 
-        ' PictureBox38
-        ' 
-        PictureBox38.BackColor = Color.DarkCyan
-        PictureBox38.Image = My.Resources.Resources.available
-        PictureBox38.Location = New Point(448, 531)
-        PictureBox38.Name = "PictureBox38"
-        PictureBox38.Size = New Size(35, 38)
-        PictureBox38.TabIndex = 106
-        PictureBox38.TabStop = False
-        ' 
-        ' PictureBox39
-        ' 
-        PictureBox39.BackColor = Color.DarkCyan
-        PictureBox39.Image = My.Resources.Resources.available
-        PictureBox39.Location = New Point(407, 575)
-        PictureBox39.Name = "PictureBox39"
-        PictureBox39.Size = New Size(35, 38)
-        PictureBox39.TabIndex = 105
-        PictureBox39.TabStop = False
-        ' 
-        ' PictureBox40
-        ' 
-        PictureBox40.BackColor = Color.DarkCyan
-        PictureBox40.Image = My.Resources.Resources.available
-        PictureBox40.Location = New Point(448, 575)
-        PictureBox40.Name = "PictureBox40"
-        PictureBox40.Size = New Size(35, 38)
-        PictureBox40.TabIndex = 124
-        PictureBox40.TabStop = False
-        ' 
-        ' PictureBox41
-        ' 
-        PictureBox41.BackColor = Color.DarkCyan
-        PictureBox41.Image = My.Resources.Resources.available
-        PictureBox41.Location = New Point(407, 619)
-        PictureBox41.Name = "PictureBox41"
-        PictureBox41.Size = New Size(35, 38)
-        PictureBox41.TabIndex = 125
-        PictureBox41.TabStop = False
-        ' 
-        ' PictureBox42
-        ' 
-        PictureBox42.BackColor = Color.DarkCyan
-        PictureBox42.Image = My.Resources.Resources.available
-        PictureBox42.Location = New Point(448, 619)
-        PictureBox42.Name = "PictureBox42"
-        PictureBox42.Size = New Size(35, 38)
-        PictureBox42.TabIndex = 126
-        PictureBox42.TabStop = False
+        ' H1
+        ' 
+        H1.BackColor = Color.DarkCyan
+        H1.Image = My.Resources.Resources.available
+        H1.Location = New Point(258, 619)
+        H1.Name = "H1"
+        H1.Size = New Size(35, 38)
+        H1.TabIndex = 85
+        H1.TabStop = False
+        ' 
+        ' H2
+        ' 
+        H2.BackColor = Color.DarkCyan
+        H2.Image = My.Resources.Resources.available
+        H2.Location = New Point(299, 619)
+        H2.Name = "H2"
+        H2.Size = New Size(35, 38)
+        H2.TabIndex = 86
+        H2.TabStop = False
+        ' 
+        ' G1
+        ' 
+        G1.BackColor = Color.DarkCyan
+        G1.Image = My.Resources.Resources.available
+        G1.Location = New Point(258, 575)
+        G1.Name = "G1"
+        G1.Size = New Size(35, 38)
+        G1.TabIndex = 87
+        G1.TabStop = False
+        ' 
+        ' G2
+        ' 
+        G2.BackColor = Color.DarkCyan
+        G2.Image = My.Resources.Resources.available
+        G2.Location = New Point(299, 575)
+        G2.Name = "G2"
+        G2.Size = New Size(35, 38)
+        G2.TabIndex = 88
+        G2.TabStop = False
+        ' 
+        ' F1
+        ' 
+        F1.BackColor = Color.DarkCyan
+        F1.Image = My.Resources.Resources.available
+        F1.Location = New Point(258, 531)
+        F1.Name = "F1"
+        F1.Size = New Size(35, 38)
+        F1.TabIndex = 89
+        F1.TabStop = False
+        ' 
+        ' F2
+        ' 
+        F2.BackColor = Color.DarkCyan
+        F2.Image = My.Resources.Resources.available
+        F2.Location = New Point(299, 531)
+        F2.Name = "F2"
+        F2.Size = New Size(35, 38)
+        F2.TabIndex = 90
+        F2.TabStop = False
+        ' 
+        ' E1
+        ' 
+        E1.BackColor = Color.DarkCyan
+        E1.Image = My.Resources.Resources.available
+        E1.Location = New Point(258, 487)
+        E1.Name = "E1"
+        E1.Size = New Size(35, 38)
+        E1.TabIndex = 91
+        E1.TabStop = False
+        ' 
+        ' E2
+        ' 
+        E2.BackColor = Color.DarkCyan
+        E2.Image = My.Resources.Resources.available
+        E2.Location = New Point(299, 487)
+        E2.Name = "E2"
+        E2.Size = New Size(35, 38)
+        E2.TabIndex = 92
+        E2.TabStop = False
+        ' 
+        ' D1
+        ' 
+        D1.BackColor = Color.DarkCyan
+        D1.Image = My.Resources.Resources.available
+        D1.Location = New Point(258, 443)
+        D1.Name = "D1"
+        D1.Size = New Size(35, 38)
+        D1.TabIndex = 93
+        D1.TabStop = False
+        ' 
+        ' D2
+        ' 
+        D2.BackColor = Color.DarkCyan
+        D2.Image = My.Resources.Resources.available
+        D2.Location = New Point(299, 443)
+        D2.Name = "D2"
+        D2.Size = New Size(35, 38)
+        D2.TabIndex = 94
+        D2.TabStop = False
+        ' 
+        ' C1
+        ' 
+        C1.BackColor = Color.DarkCyan
+        C1.Image = My.Resources.Resources.available
+        C1.Location = New Point(258, 399)
+        C1.Name = "C1"
+        C1.Size = New Size(35, 38)
+        C1.TabIndex = 95
+        C1.TabStop = False
+        ' 
+        ' C2
+        ' 
+        C2.BackColor = Color.DarkCyan
+        C2.Image = My.Resources.Resources.available
+        C2.Location = New Point(299, 399)
+        C2.Name = "C2"
+        C2.Size = New Size(35, 38)
+        C2.TabIndex = 96
+        C2.TabStop = False
+        ' 
+        ' B1
+        ' 
+        B1.BackColor = Color.DarkCyan
+        B1.Image = My.Resources.Resources.available
+        B1.Location = New Point(258, 355)
+        B1.Name = "B1"
+        B1.Size = New Size(35, 38)
+        B1.TabIndex = 97
+        B1.TabStop = False
+        ' 
+        ' B2
+        ' 
+        B2.BackColor = Color.DarkCyan
+        B2.Image = My.Resources.Resources.available
+        B2.Location = New Point(299, 355)
+        B2.Name = "B2"
+        B2.Size = New Size(35, 38)
+        B2.TabIndex = 98
+        B2.TabStop = False
+        ' 
+        ' A1
+        ' 
+        A1.BackColor = Color.DarkCyan
+        A1.Image = My.Resources.Resources.available
+        A1.Location = New Point(258, 311)
+        A1.Name = "A1"
+        A1.Size = New Size(35, 38)
+        A1.TabIndex = 99
+        A1.TabStop = False
+        ' 
+        ' A2
+        ' 
+        A2.BackColor = Color.DarkCyan
+        A2.Image = My.Resources.Resources.available
+        A2.Location = New Point(299, 311)
+        A2.Name = "A2"
+        A2.Size = New Size(35, 38)
+        A2.TabIndex = 100
+        A2.TabStop = False
+        ' 
+        ' Vc1
+        ' 
+        Vc1.BackColor = Color.Navy
+        Vc1.Image = My.Resources.Resources.available
+        Vc1.Location = New Point(258, 252)
+        Vc1.Name = "Vc1"
+        Vc1.Size = New Size(35, 38)
+        Vc1.TabIndex = 101
+        Vc1.TabStop = False
+        ' 
+        ' Vb1
+        ' 
+        Vb1.BackColor = Color.Navy
+        Vb1.Image = My.Resources.Resources.available
+        Vb1.Location = New Point(258, 199)
+        Vb1.Name = "Vb1"
+        Vb1.Size = New Size(35, 38)
+        Vb1.TabIndex = 102
+        Vb1.TabStop = False
+        ' 
+        ' Va1
+        ' 
+        Va1.BackColor = Color.Navy
+        Va1.Image = My.Resources.Resources.available
+        Va1.Location = New Point(258, 144)
+        Va1.Name = "Va1"
+        Va1.Size = New Size(35, 38)
+        Va1.TabIndex = 103
+        Va1.TabStop = False
+        ' 
+        ' H5
+        ' 
+        H5.BackColor = Color.DarkCyan
+        H5.Image = My.Resources.Resources.available
+        H5.Location = New Point(354, 619)
+        H5.Name = "H5"
+        H5.Size = New Size(35, 38)
+        H5.TabIndex = 104
+        H5.TabStop = False
+        ' 
+        ' Va2
+        ' 
+        Va2.BackColor = Color.Navy
+        Va2.Image = My.Resources.Resources.available
+        Va2.Location = New Point(385, 144)
+        Va2.Name = "Va2"
+        Va2.Size = New Size(35, 38)
+        Va2.TabIndex = 123
+        Va2.TabStop = False
+        ' 
+        ' Va3
+        ' 
+        Va3.BackColor = Color.Navy
+        Va3.Image = My.Resources.Resources.available
+        Va3.Location = New Point(448, 144)
+        Va3.Name = "Va3"
+        Va3.Size = New Size(35, 38)
+        Va3.TabIndex = 122
+        Va3.TabStop = False
+        ' 
+        ' Vb2
+        ' 
+        Vb2.BackColor = Color.Navy
+        Vb2.Image = My.Resources.Resources.available
+        Vb2.Location = New Point(385, 199)
+        Vb2.Name = "Vb2"
+        Vb2.Size = New Size(35, 38)
+        Vb2.TabIndex = 121
+        Vb2.TabStop = False
+        ' 
+        ' Vb3
+        ' 
+        Vb3.BackColor = Color.Navy
+        Vb3.Image = My.Resources.Resources.available
+        Vb3.Location = New Point(448, 199)
+        Vb3.Name = "Vb3"
+        Vb3.Size = New Size(35, 38)
+        Vb3.TabIndex = 120
+        Vb3.TabStop = False
+        ' 
+        ' Vc2
+        ' 
+        Vc2.BackColor = Color.Navy
+        Vc2.Image = My.Resources.Resources.available
+        Vc2.Location = New Point(385, 252)
+        Vc2.Name = "Vc2"
+        Vc2.Size = New Size(35, 38)
+        Vc2.TabIndex = 119
+        Vc2.TabStop = False
+        ' 
+        ' Vc3
+        ' 
+        Vc3.BackColor = Color.Navy
+        Vc3.Image = My.Resources.Resources.available
+        Vc3.Location = New Point(448, 252)
+        Vc3.Name = "Vc3"
+        Vc3.Size = New Size(35, 38)
+        Vc3.TabIndex = 118
+        Vc3.TabStop = False
+        ' 
+        ' A3
+        ' 
+        A3.BackColor = Color.DarkCyan
+        A3.Image = My.Resources.Resources.available
+        A3.Location = New Point(407, 311)
+        A3.Name = "A3"
+        A3.Size = New Size(35, 38)
+        A3.TabIndex = 117
+        A3.TabStop = False
+        ' 
+        ' A4
+        ' 
+        A4.BackColor = Color.DarkCyan
+        A4.Image = My.Resources.Resources.available
+        A4.Location = New Point(448, 311)
+        A4.Name = "A4"
+        A4.Size = New Size(35, 38)
+        A4.TabIndex = 116
+        A4.TabStop = False
+        ' 
+        ' B3
+        ' 
+        B3.BackColor = Color.DarkCyan
+        B3.Image = My.Resources.Resources.available
+        B3.Location = New Point(407, 355)
+        B3.Name = "B3"
+        B3.Size = New Size(35, 38)
+        B3.TabIndex = 115
+        B3.TabStop = False
+        ' 
+        ' B4
+        ' 
+        B4.BackColor = Color.DarkCyan
+        B4.Image = My.Resources.Resources.available
+        B4.Location = New Point(448, 355)
+        B4.Name = "B4"
+        B4.Size = New Size(35, 38)
+        B4.TabIndex = 114
+        B4.TabStop = False
+        ' 
+        ' C3
+        ' 
+        C3.BackColor = Color.DarkCyan
+        C3.Image = My.Resources.Resources.available
+        C3.Location = New Point(407, 399)
+        C3.Name = "C3"
+        C3.Size = New Size(35, 38)
+        C3.TabIndex = 113
+        C3.TabStop = False
+        ' 
+        ' C4
+        ' 
+        C4.BackColor = Color.DarkCyan
+        C4.Image = My.Resources.Resources.available
+        C4.Location = New Point(448, 399)
+        C4.Name = "C4"
+        C4.Size = New Size(35, 38)
+        C4.TabIndex = 112
+        C4.TabStop = False
+        ' 
+        ' D3
+        ' 
+        D3.BackColor = Color.DarkCyan
+        D3.Image = My.Resources.Resources.available
+        D3.Location = New Point(407, 443)
+        D3.Name = "D3"
+        D3.Size = New Size(35, 38)
+        D3.TabIndex = 111
+        D3.TabStop = False
+        ' 
+        ' D4
+        ' 
+        D4.BackColor = Color.DarkCyan
+        D4.Image = My.Resources.Resources.available
+        D4.Location = New Point(448, 443)
+        D4.Name = "D4"
+        D4.Size = New Size(35, 38)
+        D4.TabIndex = 110
+        D4.TabStop = False
+        ' 
+        ' E3
+        ' 
+        E3.BackColor = Color.DarkCyan
+        E3.Image = My.Resources.Resources.available
+        E3.Location = New Point(407, 487)
+        E3.Name = "E3"
+        E3.Size = New Size(35, 38)
+        E3.TabIndex = 109
+        E3.TabStop = False
+        ' 
+        ' E4
+        ' 
+        E4.BackColor = Color.DarkCyan
+        E4.Image = My.Resources.Resources.available
+        E4.Location = New Point(448, 487)
+        E4.Name = "E4"
+        E4.Size = New Size(35, 38)
+        E4.TabIndex = 108
+        E4.TabStop = False
+        ' 
+        ' F3
+        ' 
+        F3.BackColor = Color.DarkCyan
+        F3.Image = My.Resources.Resources.available
+        F3.Location = New Point(407, 531)
+        F3.Name = "F3"
+        F3.Size = New Size(35, 38)
+        F3.TabIndex = 107
+        F3.TabStop = False
+        ' 
+        ' F4
+        ' 
+        F4.BackColor = Color.DarkCyan
+        F4.Image = My.Resources.Resources.available
+        F4.Location = New Point(448, 531)
+        F4.Name = "F4"
+        F4.Size = New Size(35, 38)
+        F4.TabIndex = 106
+        F4.TabStop = False
+        ' 
+        ' G3
+        ' 
+        G3.BackColor = Color.DarkCyan
+        G3.Image = My.Resources.Resources.available
+        G3.Location = New Point(407, 575)
+        G3.Name = "G3"
+        G3.Size = New Size(35, 38)
+        G3.TabIndex = 105
+        G3.TabStop = False
+        ' 
+        ' G4
+        ' 
+        G4.BackColor = Color.DarkCyan
+        G4.Image = My.Resources.Resources.available
+        G4.Location = New Point(448, 575)
+        G4.Name = "G4"
+        G4.Size = New Size(35, 38)
+        G4.TabIndex = 124
+        G4.TabStop = False
+        ' 
+        ' H3
+        ' 
+        H3.BackColor = Color.DarkCyan
+        H3.Image = My.Resources.Resources.available
+        H3.Location = New Point(407, 619)
+        H3.Name = "H3"
+        H3.Size = New Size(35, 38)
+        H3.TabIndex = 125
+        H3.TabStop = False
+        ' 
+        ' H4
+        ' 
+        H4.BackColor = Color.DarkCyan
+        H4.Image = My.Resources.Resources.available
+        H4.Location = New Point(448, 619)
+        H4.Name = "H4"
+        H4.Size = New Size(35, 38)
+        H4.TabIndex = 126
+        H4.TabStop = False
         ' 
         ' Label3
         ' 
@@ -714,6 +730,22 @@ Partial Class FormBusLayout
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(559, 679)
+        Controls.Add(Label29)
+        Controls.Add(Label28)
+        Controls.Add(Label27)
+        Controls.Add(Label26)
+        Controls.Add(Label25)
+        Controls.Add(Label24)
+        Controls.Add(Label23)
+        Controls.Add(Label22)
+        Controls.Add(Label21)
+        Controls.Add(Label20)
+        Controls.Add(Label19)
+        Controls.Add(Label18)
+        Controls.Add(Label17)
+        Controls.Add(Label16)
+        Controls.Add(Label15)
+        Controls.Add(Label14)
         Controls.Add(Label13)
         Controls.Add(Label12)
         Controls.Add(Label10)
@@ -725,96 +757,96 @@ Partial Class FormBusLayout
         Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(Label3)
-        Controls.Add(PictureBox42)
-        Controls.Add(PictureBox41)
-        Controls.Add(PictureBox40)
-        Controls.Add(PictureBox21)
-        Controls.Add(PictureBox22)
-        Controls.Add(PictureBox23)
-        Controls.Add(PictureBox24)
-        Controls.Add(PictureBox25)
-        Controls.Add(PictureBox26)
-        Controls.Add(PictureBox27)
-        Controls.Add(PictureBox28)
-        Controls.Add(PictureBox29)
-        Controls.Add(PictureBox30)
-        Controls.Add(PictureBox31)
-        Controls.Add(PictureBox32)
-        Controls.Add(PictureBox33)
-        Controls.Add(PictureBox34)
-        Controls.Add(PictureBox35)
-        Controls.Add(PictureBox36)
-        Controls.Add(PictureBox37)
-        Controls.Add(PictureBox38)
-        Controls.Add(PictureBox39)
-        Controls.Add(PictureBox20)
-        Controls.Add(PictureBox19)
-        Controls.Add(PictureBox18)
-        Controls.Add(PictureBox17)
-        Controls.Add(PictureBox16)
-        Controls.Add(PictureBox15)
-        Controls.Add(PictureBox14)
-        Controls.Add(PictureBox13)
-        Controls.Add(PictureBox12)
-        Controls.Add(PictureBox11)
-        Controls.Add(PictureBox10)
-        Controls.Add(PictureBox9)
-        Controls.Add(PictureBox8)
-        Controls.Add(PictureBox7)
-        Controls.Add(PictureBox6)
-        Controls.Add(PictureBox5)
-        Controls.Add(PictureBox4)
-        Controls.Add(PictureBox3)
-        Controls.Add(PictureBox2)
-        Controls.Add(PictureBox1)
+        Controls.Add(H4)
+        Controls.Add(H3)
+        Controls.Add(G4)
+        Controls.Add(Va2)
+        Controls.Add(Va3)
+        Controls.Add(Vb2)
+        Controls.Add(Vb3)
+        Controls.Add(Vc2)
+        Controls.Add(Vc3)
+        Controls.Add(A3)
+        Controls.Add(A4)
+        Controls.Add(B3)
+        Controls.Add(B4)
+        Controls.Add(C3)
+        Controls.Add(C4)
+        Controls.Add(D3)
+        Controls.Add(D4)
+        Controls.Add(E3)
+        Controls.Add(E4)
+        Controls.Add(F3)
+        Controls.Add(F4)
+        Controls.Add(G3)
+        Controls.Add(H5)
+        Controls.Add(Va1)
+        Controls.Add(Vb1)
+        Controls.Add(Vc1)
+        Controls.Add(A2)
+        Controls.Add(A1)
+        Controls.Add(B2)
+        Controls.Add(B1)
+        Controls.Add(C2)
+        Controls.Add(C1)
+        Controls.Add(D2)
+        Controls.Add(D1)
+        Controls.Add(E2)
+        Controls.Add(E1)
+        Controls.Add(F2)
+        Controls.Add(F1)
+        Controls.Add(G2)
+        Controls.Add(G1)
+        Controls.Add(H2)
+        Controls.Add(H1)
         Controls.Add(Label11)
         Controls.Add(Label7)
         Controls.Add(Label2)
         Controls.Add(Label1)
         Name = "FormBusLayout"
         Text = "SEAT BOOKINGS"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox9, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox12, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox13, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox14, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox15, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox16, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox17, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox18, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox19, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox20, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox21, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox22, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox23, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox24, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox25, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox26, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox27, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox28, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox29, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox30, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox31, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox32, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox33, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox34, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox35, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox36, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox37, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox38, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox39, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox40, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox41, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox42, ComponentModel.ISupportInitialize).EndInit()
+        CType(H1, ComponentModel.ISupportInitialize).EndInit()
+        CType(H2, ComponentModel.ISupportInitialize).EndInit()
+        CType(G1, ComponentModel.ISupportInitialize).EndInit()
+        CType(G2, ComponentModel.ISupportInitialize).EndInit()
+        CType(F1, ComponentModel.ISupportInitialize).EndInit()
+        CType(F2, ComponentModel.ISupportInitialize).EndInit()
+        CType(E1, ComponentModel.ISupportInitialize).EndInit()
+        CType(E2, ComponentModel.ISupportInitialize).EndInit()
+        CType(D1, ComponentModel.ISupportInitialize).EndInit()
+        CType(D2, ComponentModel.ISupportInitialize).EndInit()
+        CType(C1, ComponentModel.ISupportInitialize).EndInit()
+        CType(C2, ComponentModel.ISupportInitialize).EndInit()
+        CType(B1, ComponentModel.ISupportInitialize).EndInit()
+        CType(B2, ComponentModel.ISupportInitialize).EndInit()
+        CType(A1, ComponentModel.ISupportInitialize).EndInit()
+        CType(A2, ComponentModel.ISupportInitialize).EndInit()
+        CType(Vc1, ComponentModel.ISupportInitialize).EndInit()
+        CType(Vb1, ComponentModel.ISupportInitialize).EndInit()
+        CType(Va1, ComponentModel.ISupportInitialize).EndInit()
+        CType(H5, ComponentModel.ISupportInitialize).EndInit()
+        CType(Va2, ComponentModel.ISupportInitialize).EndInit()
+        CType(Va3, ComponentModel.ISupportInitialize).EndInit()
+        CType(Vb2, ComponentModel.ISupportInitialize).EndInit()
+        CType(Vb3, ComponentModel.ISupportInitialize).EndInit()
+        CType(Vc2, ComponentModel.ISupportInitialize).EndInit()
+        CType(Vc3, ComponentModel.ISupportInitialize).EndInit()
+        CType(A3, ComponentModel.ISupportInitialize).EndInit()
+        CType(A4, ComponentModel.ISupportInitialize).EndInit()
+        CType(B3, ComponentModel.ISupportInitialize).EndInit()
+        CType(B4, ComponentModel.ISupportInitialize).EndInit()
+        CType(C3, ComponentModel.ISupportInitialize).EndInit()
+        CType(C4, ComponentModel.ISupportInitialize).EndInit()
+        CType(D3, ComponentModel.ISupportInitialize).EndInit()
+        CType(D4, ComponentModel.ISupportInitialize).EndInit()
+        CType(E3, ComponentModel.ISupportInitialize).EndInit()
+        CType(E4, ComponentModel.ISupportInitialize).EndInit()
+        CType(F3, ComponentModel.ISupportInitialize).EndInit()
+        CType(F4, ComponentModel.ISupportInitialize).EndInit()
+        CType(G3, ComponentModel.ISupportInitialize).EndInit()
+        CType(G4, ComponentModel.ISupportInitialize).EndInit()
+        CType(H3, ComponentModel.ISupportInitialize).EndInit()
+        CType(H4, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -822,48 +854,48 @@ Partial Class FormBusLayout
     Friend WithEvents Label2 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label11 As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents PictureBox9 As PictureBox
-    Friend WithEvents PictureBox10 As PictureBox
-    Friend WithEvents PictureBox11 As PictureBox
-    Friend WithEvents PictureBox12 As PictureBox
-    Friend WithEvents PictureBox13 As PictureBox
-    Friend WithEvents PictureBox14 As PictureBox
-    Friend WithEvents PictureBox15 As PictureBox
-    Friend WithEvents PictureBox16 As PictureBox
-    Friend WithEvents PictureBox17 As PictureBox
-    Friend WithEvents PictureBox18 As PictureBox
-    Friend WithEvents PictureBox19 As PictureBox
-    Friend WithEvents PictureBox20 As PictureBox
-    Friend WithEvents PictureBox21 As PictureBox
-    Friend WithEvents PictureBox22 As PictureBox
-    Friend WithEvents PictureBox23 As PictureBox
-    Friend WithEvents PictureBox24 As PictureBox
-    Friend WithEvents PictureBox25 As PictureBox
-    Friend WithEvents PictureBox26 As PictureBox
-    Friend WithEvents PictureBox27 As PictureBox
-    Friend WithEvents PictureBox28 As PictureBox
-    Friend WithEvents PictureBox29 As PictureBox
-    Friend WithEvents PictureBox30 As PictureBox
-    Friend WithEvents PictureBox31 As PictureBox
-    Friend WithEvents PictureBox32 As PictureBox
-    Friend WithEvents PictureBox33 As PictureBox
-    Friend WithEvents PictureBox34 As PictureBox
-    Friend WithEvents PictureBox35 As PictureBox
-    Friend WithEvents PictureBox36 As PictureBox
-    Friend WithEvents PictureBox37 As PictureBox
-    Friend WithEvents PictureBox38 As PictureBox
-    Friend WithEvents PictureBox39 As PictureBox
-    Friend WithEvents PictureBox40 As PictureBox
-    Friend WithEvents PictureBox41 As PictureBox
-    Friend WithEvents PictureBox42 As PictureBox
+    Friend WithEvents H1 As PictureBox
+    Friend WithEvents H2 As PictureBox
+    Friend WithEvents G1 As PictureBox
+    Friend WithEvents G2 As PictureBox
+    Friend WithEvents F1 As PictureBox
+    Friend WithEvents F2 As PictureBox
+    Friend WithEvents E1 As PictureBox
+    Friend WithEvents E2 As PictureBox
+    Friend WithEvents D1 As PictureBox
+    Friend WithEvents D2 As PictureBox
+    Friend WithEvents C1 As PictureBox
+    Friend WithEvents C2 As PictureBox
+    Friend WithEvents B1 As PictureBox
+    Friend WithEvents B2 As PictureBox
+    Friend WithEvents A1 As PictureBox
+    Friend WithEvents A2 As PictureBox
+    Friend WithEvents Vc1 As PictureBox
+    Friend WithEvents Vb1 As PictureBox
+    Friend WithEvents Va1 As PictureBox
+    Friend WithEvents H5 As PictureBox
+    Friend WithEvents Va2 As PictureBox
+    Friend WithEvents Va3 As PictureBox
+    Friend WithEvents Vb2 As PictureBox
+    Friend WithEvents Vb3 As PictureBox
+    Friend WithEvents Vc2 As PictureBox
+    Friend WithEvents Vc3 As PictureBox
+    Friend WithEvents A3 As PictureBox
+    Friend WithEvents A4 As PictureBox
+    Friend WithEvents B3 As PictureBox
+    Friend WithEvents B4 As PictureBox
+    Friend WithEvents C3 As PictureBox
+    Friend WithEvents C4 As PictureBox
+    Friend WithEvents D3 As PictureBox
+    Friend WithEvents D4 As PictureBox
+    Friend WithEvents E3 As PictureBox
+    Friend WithEvents E4 As PictureBox
+    Friend WithEvents F3 As PictureBox
+    Friend WithEvents F4 As PictureBox
+    Friend WithEvents G3 As PictureBox
+    Friend WithEvents G4 As PictureBox
+    Friend WithEvents H3 As PictureBox
+    Friend WithEvents H4 As PictureBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
@@ -875,4 +907,20 @@ Partial Class FormBusLayout
     Friend WithEvents Label10 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label29 As Label
 End Class

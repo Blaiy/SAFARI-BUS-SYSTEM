@@ -44,7 +44,7 @@ Partial Class FormBooking
         ComboBox1.Location = New Point(47, 37)
         ComboBox1.Margin = New Padding(3, 4, 3, 4)
         ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(421, 29)
+        ComboBox1.Size = New Size(279, 29)
         ComboBox1.TabIndex = 0
         ComboBox1.Text = "From"
         ' 
@@ -55,7 +55,7 @@ Partial Class FormBooking
         ComboBox2.Location = New Point(47, 77)
         ComboBox2.Margin = New Padding(3, 4, 3, 4)
         ComboBox2.Name = "ComboBox2"
-        ComboBox2.Size = New Size(421, 29)
+        ComboBox2.Size = New Size(279, 29)
         ComboBox2.TabIndex = 2
         ComboBox2.Text = "To"
         ' 
@@ -64,7 +64,7 @@ Partial Class FormBooking
         DateTimePicker1.Location = New Point(47, 118)
         DateTimePicker1.Margin = New Padding(3, 4, 3, 4)
         DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(421, 29)
+        DateTimePicker1.Size = New Size(279, 29)
         DateTimePicker1.TabIndex = 3
         ' 
         ' DateTimePicker2
@@ -72,31 +72,33 @@ Partial Class FormBooking
         DateTimePicker2.Location = New Point(47, 158)
         DateTimePicker2.Margin = New Padding(3, 4, 3, 4)
         DateTimePicker2.Name = "DateTimePicker2"
-        DateTimePicker2.Size = New Size(421, 29)
+        DateTimePicker2.Size = New Size(279, 29)
         DateTimePicker2.TabIndex = 4
         ' 
         ' btnSearch
         ' 
-        btnSearch.Location = New Point(47, 199)
+        btnSearch.Location = New Point(44, 207)
         btnSearch.Margin = New Padding(3, 4, 3, 4)
         btnSearch.Name = "btnSearch"
-        btnSearch.Size = New Size(422, 32)
+        btnSearch.Size = New Size(282, 32)
         btnSearch.TabIndex = 5
         btnSearch.Text = "Search"
         btnSearch.UseVisualStyleBackColor = True
         ' 
         ' MenuStrip1
         ' 
+        MenuStrip1.BackColor = SystemColors.ActiveCaption
         MenuStrip1.Items.AddRange(New ToolStripItem() {ToolStripMenuItem1})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
-        MenuStrip1.Size = New Size(530, 24)
+        MenuStrip1.Size = New Size(420, 24)
         MenuStrip1.TabIndex = 6
         MenuStrip1.Text = "MenuStrip1"
         ' 
         ' ToolStripMenuItem1
         ' 
         ToolStripMenuItem1.DropDownItems.AddRange(New ToolStripItem() {HomeToolStripMenuItem, ContactsToolStripMenuItem, AboutUsToolStripMenuItem, SignInRegisterToolStripMenuItem})
+        ToolStripMenuItem1.ForeColor = Color.Snow
         ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         ToolStripMenuItem1.Size = New Size(53, 20)
         ToolStripMenuItem1.Text = "MENU"
@@ -131,7 +133,7 @@ Partial Class FormBooking
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.AppWorkspace
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
-        ClientSize = New Size(530, 273)
+        ClientSize = New Size(420, 376)
         Controls.Add(btnSearch)
         Controls.Add(DateTimePicker2)
         Controls.Add(DateTimePicker1)
