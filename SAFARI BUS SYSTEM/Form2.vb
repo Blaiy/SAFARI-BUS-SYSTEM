@@ -8,17 +8,17 @@
         For Each c In Me.Controls
             If TypeOf (c) Is PictureBox Then
                 CType(c, PictureBox).Image = availableIcon
-                AddHandler c.Click, AddressOf PictureBox1_Click
+                AddHandler c.Click, AddressOf A1_Click
             End If
         Next
     End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+    Private Sub A1_Click(sender As Object, e As EventArgs) Handles A1.Click
         If CType(sender, PictureBox).Image Is availableIcon Then
             CType(sender, PictureBox).Image = selectedIcon
         ElseIf CType(sender, PictureBox).Image Is selectedIcon Then
             CType(sender, PictureBox).Image = availableIcon
         End If
     End Sub
+
 
 End Class
