@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class FormBooking
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormBooking))
         ComboBox1 = New ComboBox()
         ComboBox2 = New ComboBox()
         DateTimePicker1 = New DateTimePicker()
@@ -104,28 +104,28 @@ Partial Class Form1
         ' HomeToolStripMenuItem
         ' 
         HomeToolStripMenuItem.Name = "HomeToolStripMenuItem"
-        HomeToolStripMenuItem.Size = New Size(180, 22)
+        HomeToolStripMenuItem.Size = New Size(160, 22)
         HomeToolStripMenuItem.Text = "Home"
         ' 
         ' ContactsToolStripMenuItem
         ' 
         ContactsToolStripMenuItem.Name = "ContactsToolStripMenuItem"
-        ContactsToolStripMenuItem.Size = New Size(180, 22)
+        ContactsToolStripMenuItem.Size = New Size(160, 22)
         ContactsToolStripMenuItem.Text = "Contact Us"
         ' 
         ' AboutUsToolStripMenuItem
         ' 
         AboutUsToolStripMenuItem.Name = "AboutUsToolStripMenuItem"
-        AboutUsToolStripMenuItem.Size = New Size(180, 22)
+        AboutUsToolStripMenuItem.Size = New Size(160, 22)
         AboutUsToolStripMenuItem.Text = "About Us"
         ' 
         ' SignInRegisterToolStripMenuItem
         ' 
         SignInRegisterToolStripMenuItem.Name = "SignInRegisterToolStripMenuItem"
-        SignInRegisterToolStripMenuItem.Size = New Size(180, 22)
+        SignInRegisterToolStripMenuItem.Size = New Size(160, 22)
         SignInRegisterToolStripMenuItem.Text = "Sign In/ Register"
         ' 
-        ' Form1
+        ' FormBooking
         ' 
         AutoScaleDimensions = New SizeF(8F, 21F)
         AutoScaleMode = AutoScaleMode.Font
@@ -141,7 +141,7 @@ Partial Class Form1
         Font = New Font("Segoe Print", 9F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
         MainMenuStrip = MenuStrip1
         Margin = New Padding(3, 4, 3, 4)
-        Name = "Form1"
+        Name = "FormBooking"
         Text = "SAFARI BUS"
         MenuStrip1.ResumeLayout(False)
         MenuStrip1.PerformLayout()

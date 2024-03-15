@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class FormBusLayout
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormBusLayout))
         Label1 = New Label()
         Label2 = New Label()
         Label7 = New Label()
@@ -709,7 +709,7 @@ Partial Class Form2
         Label13.TabIndex = 137
         Label13.Text = "Selected seats:"
         ' 
-        ' Form2
+        ' FormBusLayout
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -771,7 +771,7 @@ Partial Class Form2
         Controls.Add(Label7)
         Controls.Add(Label2)
         Controls.Add(Label1)
-        Name = "Form2"
+        Name = "FormBusLayout"
         Text = "SEAT BOOKINGS"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
