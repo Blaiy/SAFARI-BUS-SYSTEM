@@ -725,6 +725,118 @@ Partial Class FormBusLayout
         Label13.TabIndex = 137
         Label13.Text = "Selected seats:"
         ' 
+        ' Label14
+        ' 
+        Label14.Location = New Point(0, 0)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(100, 23)
+        Label14.TabIndex = 15
+        ' 
+        ' Label15
+        ' 
+        Label15.Location = New Point(0, 0)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(100, 23)
+        Label15.TabIndex = 14
+        ' 
+        ' Label16
+        ' 
+        Label16.Location = New Point(0, 0)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(100, 23)
+        Label16.TabIndex = 13
+        ' 
+        ' Label17
+        ' 
+        Label17.Location = New Point(0, 0)
+        Label17.Name = "Label17"
+        Label17.Size = New Size(100, 23)
+        Label17.TabIndex = 12
+        ' 
+        ' Label18
+        ' 
+        Label18.Location = New Point(0, 0)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(100, 23)
+        Label18.TabIndex = 11
+        ' 
+        ' Label19
+        ' 
+        Label19.Location = New Point(0, 0)
+        Label19.Name = "Label19"
+        Label19.Size = New Size(100, 23)
+        Label19.TabIndex = 10
+        ' 
+        ' Label20
+        ' 
+        Label20.Location = New Point(0, 0)
+        Label20.Name = "Label20"
+        Label20.Size = New Size(100, 23)
+        Label20.TabIndex = 9
+        ' 
+        ' Label21
+        ' 
+        Label21.Location = New Point(0, 0)
+        Label21.Name = "Label21"
+        Label21.Size = New Size(100, 23)
+        Label21.TabIndex = 8
+        ' 
+        ' Label22
+        ' 
+        Label22.Location = New Point(0, 0)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(100, 23)
+        Label22.TabIndex = 7
+        ' 
+        ' Label23
+        ' 
+        Label23.Location = New Point(0, 0)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(100, 23)
+        Label23.TabIndex = 6
+        ' 
+        ' Label24
+        ' 
+        Label24.Location = New Point(0, 0)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(100, 23)
+        Label24.TabIndex = 5
+        ' 
+        ' Label25
+        ' 
+        Label25.Location = New Point(0, 0)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(100, 23)
+        Label25.TabIndex = 4
+        ' 
+        ' Label26
+        ' 
+        Label26.Location = New Point(0, 0)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(100, 23)
+        Label26.TabIndex = 3
+        ' 
+        ' Label27
+        ' 
+        Label27.Location = New Point(0, 0)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(100, 23)
+        Label27.TabIndex = 2
+        ' 
+        ' Label28
+        ' 
+        Label28.Location = New Point(0, 0)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(100, 23)
+        Label28.TabIndex = 1
+        ' 
+        ' Label29
+        ' 
+        Label29.Location = New Point(0, 0)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(100, 23)
+        Label29.TabIndex = 0
+        ' 
         ' FormBusLayout
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -803,6 +915,7 @@ Partial Class FormBusLayout
         Controls.Add(Label7)
         Controls.Add(Label2)
         Controls.Add(Label1)
+        FormBorderStyle = FormBorderStyle.None
         Name = "FormBusLayout"
         Text = "SEAT BOOKINGS"
         CType(H1, ComponentModel.ISupportInitialize).EndInit()
