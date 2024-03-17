@@ -28,13 +28,6 @@ Partial Class FormBooking
         DateTimePicker1 = New DateTimePicker()
         DateTimePicker2 = New DateTimePicker()
         btnSearch = New Button()
-        MenuStrip1 = New MenuStrip()
-        ToolStripMenuItem1 = New ToolStripMenuItem()
-        HomeToolStripMenuItem = New ToolStripMenuItem()
-        ContactsToolStripMenuItem = New ToolStripMenuItem()
-        AboutUsToolStripMenuItem = New ToolStripMenuItem()
-        SignInRegisterToolStripMenuItem = New ToolStripMenuItem()
-        MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
         ' ComboBox1
@@ -85,70 +78,23 @@ Partial Class FormBooking
         btnSearch.Text = "Search"
         btnSearch.UseVisualStyleBackColor = True
         ' 
-        ' MenuStrip1
-        ' 
-        MenuStrip1.BackColor = SystemColors.ActiveCaption
-        MenuStrip1.Items.AddRange(New ToolStripItem() {ToolStripMenuItem1})
-        MenuStrip1.Location = New Point(0, 0)
-        MenuStrip1.Name = "MenuStrip1"
-        MenuStrip1.Size = New Size(420, 24)
-        MenuStrip1.TabIndex = 6
-        MenuStrip1.Text = "MenuStrip1"
-        ' 
-        ' ToolStripMenuItem1
-        ' 
-        ToolStripMenuItem1.DropDownItems.AddRange(New ToolStripItem() {HomeToolStripMenuItem, ContactsToolStripMenuItem, AboutUsToolStripMenuItem, SignInRegisterToolStripMenuItem})
-        ToolStripMenuItem1.ForeColor = Color.Snow
-        ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        ToolStripMenuItem1.Size = New Size(53, 20)
-        ToolStripMenuItem1.Text = "MENU"
-        ' 
-        ' HomeToolStripMenuItem
-        ' 
-        HomeToolStripMenuItem.Name = "HomeToolStripMenuItem"
-        HomeToolStripMenuItem.Size = New Size(160, 22)
-        HomeToolStripMenuItem.Text = "Home"
-        ' 
-        ' ContactsToolStripMenuItem
-        ' 
-        ContactsToolStripMenuItem.Name = "ContactsToolStripMenuItem"
-        ContactsToolStripMenuItem.Size = New Size(160, 22)
-        ContactsToolStripMenuItem.Text = "Contact Us"
-        ' 
-        ' AboutUsToolStripMenuItem
-        ' 
-        AboutUsToolStripMenuItem.Name = "AboutUsToolStripMenuItem"
-        AboutUsToolStripMenuItem.Size = New Size(160, 22)
-        AboutUsToolStripMenuItem.Text = "About Us"
-        ' 
-        ' SignInRegisterToolStripMenuItem
-        ' 
-        SignInRegisterToolStripMenuItem.Name = "SignInRegisterToolStripMenuItem"
-        SignInRegisterToolStripMenuItem.Size = New Size(160, 22)
-        SignInRegisterToolStripMenuItem.Text = "Sign In/ Register"
-        ' 
         ' FormBooking
         ' 
         AutoScaleDimensions = New SizeF(8F, 21F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.AppWorkspace
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
-        ClientSize = New Size(420, 376)
+        ClientSize = New Size(539, 438)
         Controls.Add(btnSearch)
         Controls.Add(DateTimePicker2)
         Controls.Add(DateTimePicker1)
         Controls.Add(ComboBox2)
         Controls.Add(ComboBox1)
-        Controls.Add(MenuStrip1)
         Font = New Font("Segoe Print", 9F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
-        MainMenuStrip = MenuStrip1
         Margin = New Padding(3, 4, 3, 4)
         Name = "FormBooking"
         Text = "SAFARI BUS"
-        MenuStrip1.ResumeLayout(False)
-        MenuStrip1.PerformLayout()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
 
     Friend WithEvents ComboBox1 As ComboBox
@@ -156,11 +102,5 @@ Partial Class FormBooking
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents DateTimePicker2 As DateTimePicker
     Friend WithEvents btnSearch As Button
-    Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents HomeToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ContactsToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AboutUsToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SignInRegisterToolStripMenuItem As ToolStripMenuItem
 
 End Class
