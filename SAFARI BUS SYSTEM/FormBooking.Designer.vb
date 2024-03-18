@@ -154,7 +154,7 @@ Partial Class FormBooking
         AutoScaleDimensions = New SizeF(8F, 21F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.AppWorkspace
-        ClientSize = New Size(670, 483)
+        ClientSize = New Size(539, 459)
         Controls.Add(BtnPrices)
         Controls.Add(LblHomeTitle)
         Controls.Add(BtnLayout)

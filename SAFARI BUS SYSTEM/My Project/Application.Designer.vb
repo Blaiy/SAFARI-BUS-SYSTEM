@@ -33,7 +33,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.SAFARI_BUS_SYSTEM.FormBooking
+            Me.MainForm = Global.SAFARI_BUS_SYSTEM.Register
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _

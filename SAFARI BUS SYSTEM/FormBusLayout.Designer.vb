@@ -96,6 +96,7 @@ Partial Class FormBusLayout
         Label27 = New Label()
         Label28 = New Label()
         Label29 = New Label()
+        LblX = New Label()
         CType(H1, ComponentModel.ISupportInitialize).BeginInit()
         CType(H2, ComponentModel.ISupportInitialize).BeginInit()
         CType(G1, ComponentModel.ISupportInitialize).BeginInit()
@@ -837,11 +838,23 @@ Partial Class FormBusLayout
         Label29.Size = New Size(100, 23)
         Label29.TabIndex = 0
         ' 
+        ' LblX
+        ' 
+        LblX.AutoSize = True
+        LblX.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LblX.ForeColor = Color.Red
+        LblX.Location = New Point(527, 4)
+        LblX.Name = "LblX"
+        LblX.Size = New Size(20, 21)
+        LblX.TabIndex = 138
+        LblX.Text = "X"
+        ' 
         ' FormBusLayout
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(559, 679)
+        Controls.Add(LblX)
         Controls.Add(Label29)
         Controls.Add(Label28)
         Controls.Add(Label27)
@@ -1037,4 +1050,5 @@ Partial Class FormBusLayout
     Friend WithEvents Label27 As Label
     Friend WithEvents Label28 As Label
     Friend WithEvents Label29 As Label
+    Friend WithEvents LblX As Label
 End Class

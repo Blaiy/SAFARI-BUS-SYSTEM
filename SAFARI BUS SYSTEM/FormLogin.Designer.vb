@@ -22,83 +22,119 @@ Partial Class FormLogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Label1 = New Label()
-        Label2 = New Label()
-        Label3 = New Label()
-        Label4 = New Label()
-        Label5 = New Label()
+        LblUsername = New Label()
+        LblPasswd = New Label()
+        TxtUsername = New TextBox()
+        TxtPasswd = New TextBox()
+        BtnLogin = New Button()
+        LinkLogIn = New LinkLabel()
+        LblQuestion = New Label()
         SuspendLayout()
         ' 
-        ' Label1
+        ' LblUsername
         ' 
-        Label1.AutoSize = True
-        Label1.Location = New Point(456, 14)
-        Label1.Margin = New Padding(4, 0, 4, 0)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(67, 15)
-        Label1.TabIndex = 1
-        Label1.Text = "registration"
+        LblUsername.AutoSize = True
+        LblUsername.BackColor = Color.Teal
+        LblUsername.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LblUsername.ForeColor = SystemColors.Control
+        LblUsername.Location = New Point(147, 78)
+        LblUsername.Name = "LblUsername"
+        LblUsername.Size = New Size(64, 25)
+        LblUsername.TabIndex = 0
+        LblUsername.Text = "Email:"
         ' 
-        ' Label2
+        ' LblPasswd
         ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(673, 14)
-        Label2.Margin = New Padding(4, 0, 4, 0)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(71, 15)
-        Label2.TabIndex = 2
-        Label2.Text = "cancellation"
+        LblPasswd.AutoSize = True
+        LblPasswd.BackColor = Color.Teal
+        LblPasswd.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LblPasswd.ForeColor = SystemColors.Control
+        LblPasswd.Location = New Point(147, 172)
+        LblPasswd.Name = "LblPasswd"
+        LblPasswd.Size = New Size(102, 25)
+        LblPasswd.TabIndex = 1
+        LblPasswd.Text = "Password:"
         ' 
-        ' Label3
+        ' TxtUsername
         ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(14, 10)
-        Label3.Margin = New Padding(4, 0, 4, 0)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(73, 15)
-        Label3.TabIndex = 3
-        Label3.Text = "Bus booking"
+        TxtUsername.Location = New Point(147, 115)
+        TxtUsername.Multiline = True
+        TxtUsername.Name = "TxtUsername"
+        TxtUsername.Size = New Size(201, 31)
+        TxtUsername.TabIndex = 2
         ' 
-        ' Label4
+        ' TxtPasswd
         ' 
-        Label4.AutoSize = True
-        Label4.Location = New Point(533, 14)
-        Label4.Margin = New Padding(4, 0, 4, 0)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(83, 15)
-        Label4.TabIndex = 4
-        Label4.Text = "ticket booking"
+        TxtPasswd.Location = New Point(147, 202)
+        TxtPasswd.Multiline = True
+        TxtPasswd.Name = "TxtPasswd"
+        TxtPasswd.Size = New Size(201, 31)
+        TxtPasswd.TabIndex = 3
         ' 
-        ' Label5
+        ' BtnLogin
         ' 
-        Label5.AutoSize = True
-        Label5.Location = New Point(839, 14)
-        Label5.Margin = New Padding(4, 0, 4, 0)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(34, 15)
-        Label5.TabIndex = 5
-        Label5.Text = "login"
+        BtnLogin.BackColor = Color.Goldenrod
+        BtnLogin.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        BtnLogin.Location = New Point(147, 271)
+        BtnLogin.Name = "BtnLogin"
+        BtnLogin.Size = New Size(201, 39)
+        BtnLogin.TabIndex = 14
+        BtnLogin.Text = "Login"
+        BtnLogin.UseVisualStyleBackColor = False
+        ' 
+        ' LinkLogIn
+        ' 
+        LinkLogIn.AutoSize = True
+        LinkLogIn.BackColor = Color.Transparent
+        LinkLogIn.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        LinkLogIn.ForeColor = Color.DarkCyan
+        LinkLogIn.LinkColor = Color.White
+        LinkLogIn.Location = New Point(147, 371)
+        LinkLogIn.Name = "LinkLogIn"
+        LinkLogIn.Size = New Size(108, 20)
+        LinkLogIn.TabIndex = 17
+        LinkLogIn.TabStop = True
+        LinkLogIn.Text = "Create account"
+        ' 
+        ' LblQuestion
+        ' 
+        LblQuestion.AutoSize = True
+        LblQuestion.BackColor = Color.Transparent
+        LblQuestion.Font = New Font("Segoe UI", 11.25F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        LblQuestion.ForeColor = SystemColors.ActiveCaptionText
+        LblQuestion.Location = New Point(144, 342)
+        LblQuestion.Name = "LblQuestion"
+        LblQuestion.Size = New Size(159, 20)
+        LblQuestion.TabIndex = 16
+        LblQuestion.Text = "Don't have an account?"
         ' 
         ' FormLogin
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(933, 519)
-        Controls.Add(Label5)
-        Controls.Add(Label4)
-        Controls.Add(Label3)
-        Controls.Add(Label2)
-        Controls.Add(Label1)
+        BackgroundImage = My.Resources.Resources.bg_tree_rz_png
+        ClientSize = New Size(557, 486)
+        Controls.Add(LinkLogIn)
+        Controls.Add(LblQuestion)
+        Controls.Add(BtnLogin)
+        Controls.Add(TxtPasswd)
+        Controls.Add(TxtUsername)
+        Controls.Add(LblPasswd)
+        Controls.Add(LblUsername)
         Margin = New Padding(4, 3, 4, 3)
         Name = "FormLogin"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Login"
         ResumeLayout(False)
         PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+
+    Friend WithEvents LblUsername As Label
+    Friend WithEvents LblPasswd As Label
+    Friend WithEvents TxtUsername As TextBox
+    Friend WithEvents TxtPasswd As TextBox
+    Friend WithEvents BtnLogin As Button
+    Friend WithEvents LinkLogIn As LinkLabel
+    Friend WithEvents LblQuestion As Label
 End Class

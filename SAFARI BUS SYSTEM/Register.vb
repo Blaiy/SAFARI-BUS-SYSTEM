@@ -20,6 +20,7 @@
     End Sub
 
     Private Sub LinkLogIn_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLogIn.LinkClicked
-
+        FormLogin.Show()
+        Me.Hide()
     End Sub
 End Class
