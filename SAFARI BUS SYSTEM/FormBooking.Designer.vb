@@ -53,6 +53,7 @@ Partial Class FormBooking
         ' 
         ComBoxTo.FormattingEnabled = True
         ComBoxTo.Items.AddRange(New Object() {"MOMBASA", "NAIROBI", "NAKURU", "ELDORET", "KITALE", "MALABA"})
+        ComBoxTo.Location = New Point(59, 130)
         ComBoxTo.Margin = New Padding(3, 4, 3, 4)
         ComBoxTo.Name = "ComBoxTo"
         ComBoxTo.Size = New Size(279, 29)
@@ -114,9 +115,10 @@ Partial Class FormBooking
         ' LblHomeTitle
         ' 
         LblHomeTitle.AutoSize = True
-        LblHomeTitle.Location = New Point(206, 17)
+        LblHomeTitle.Font = New Font("Segoe Print", 12F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        LblHomeTitle.Location = New Point(222, 25)
         LblHomeTitle.Name = "LblHomeTitle"
-        LblHomeTitle.Size = New Size(174, 21)
+        LblHomeTitle.Size = New Size(223, 28)
         LblHomeTitle.TabIndex = 10
         LblHomeTitle.Text = "Book Now, Book Cheaper!!"
         ' 
