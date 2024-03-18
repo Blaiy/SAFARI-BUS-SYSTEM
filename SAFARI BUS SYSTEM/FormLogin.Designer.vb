@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class FormLogin
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,27 +22,12 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Picture = New PictureBox()
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
         Label4 = New Label()
         Label5 = New Label()
-        CType(Picture, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' Picture
-        ' 
-        Picture.BackgroundImage = CType(resources.GetObject("Picture.BackgroundImage"), Image)
-        Picture.BackgroundImageLayout = ImageLayout.Stretch
-        Picture.Location = New Point(-61, 10)
-        Picture.Margin = New Padding(4, 3, 4, 3)
-        Picture.Name = "Picture"
-        Picture.Size = New Size(1007, 538)
-        Picture.SizeMode = PictureBoxSizeMode.StretchImage
-        Picture.TabIndex = 0
-        Picture.TabStop = False
         ' 
         ' Label1
         ' 
@@ -94,28 +79,23 @@ Partial Class Form1
         Label5.TabIndex = 5
         Label5.Text = "login"
         ' 
-        ' Form1
+        ' FormLogin
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         ClientSize = New Size(933, 519)
         Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
-        Controls.Add(Picture)
         Margin = New Padding(4, 3, 4, 3)
-        Name = "Form1"
-        Text = "Form1"
-        CType(Picture, ComponentModel.ISupportInitialize).EndInit()
+        Name = "FormLogin"
+        Text = "Login"
         ResumeLayout(False)
         PerformLayout()
 
     End Sub
-
-    Friend WithEvents Picture As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label

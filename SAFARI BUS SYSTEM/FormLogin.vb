@@ -1,5 +1,5 @@
-﻿Public Class Form1
-    Private Sub Picture_Click(sender As Object, e As EventArgs) Handles Picture.Click
+﻿Public Class FormLogin
+    Private Sub Picture_Click(sender As Object, e As EventArgs)
 
     End Sub
 
