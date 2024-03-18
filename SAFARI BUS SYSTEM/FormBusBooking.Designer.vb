@@ -41,7 +41,7 @@ Partial Class FormBooking
         ' ComBoxFrom
         ' 
         ComBoxFrom.FormattingEnabled = True
-        ComBoxFrom.Items.AddRange(New Object() {"LAMU", "MPEKETONI", "MALINDI", "KILIFI", "MOMBASA", "VOI", "KWALE", "NAIROBI", "NAIVASHA", "NAKURU", "KITALE", "BUNGOMA", "KIAMBU", "BONDO", "KISUMU", "KIRINYAGA", "MERU", "EMBU", "MALABA", "ELDORET", "KAKAMEGA", "NYERI", "TURKANA", "KERICHO", "BOMET", "BUSIA", "KISII", "MACHAKOS", "KITUI", "VIHIGA", "DAR-ES-SALAAM", "ARUSHA", "KAMPALA", "KIGALI"})
+        ComBoxFrom.Items.AddRange(New Object() {"MOMBASA", "NAIROBI", "NAKURU", "ELDORET", "KITALE", "MALABA"})
         ComBoxFrom.Location = New Point(59, 79)
         ComBoxFrom.Margin = New Padding(3, 4, 3, 4)
         ComBoxFrom.Name = "ComBoxFrom"
@@ -52,8 +52,7 @@ Partial Class FormBooking
         ' ComBoxTo
         ' 
         ComBoxTo.FormattingEnabled = True
-        ComBoxTo.Items.AddRange(New Object() {"LAMU", "MPEKETONI", "MALINDI", "KILIFI", "MOMBASA", "VOI", "KWALE", "NAIROBI", "NAIVASHA", "NAKURU", "KITALE", "BUNGOMA", "KIAMBU", "BONDO", "KISUMU", "KIRINYAGA", "MERU", "EMBU", "MALABA", "ELDORET", "KAKAMEGA", "NYERI", "TURKANA", "KERICHO", "BOMET", "BUSIA", "KISII", "MACHAKOS", "KITUI", "VIHIGA", "DAR-ES-SALAAM", "ARUSHA", "KAMPALA", "KIGALI"})
-        ComBoxTo.Location = New Point(59, 127)
+        ComBoxTo.Items.AddRange(New Object() {"MOMBASA", "NAIROBI", "NAKURU", "ELDORET", "KITALE", "MALABA"})
         ComBoxTo.Margin = New Padding(3, 4, 3, 4)
         ComBoxTo.Name = "ComBoxTo"
         ComBoxTo.Size = New Size(279, 29)
