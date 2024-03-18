@@ -917,7 +917,7 @@ Partial Class FormBusLayout
         Controls.Add(Label1)
         FormBorderStyle = FormBorderStyle.None
         Name = "FormBusLayout"
-        StartPosition = FormStartPosition.CenterParent
+        StartPosition = FormStartPosition.CenterScreen
         Text = "SEAT BOOKINGS"
         CType(H1, ComponentModel.ISupportInitialize).EndInit()
         CType(H2, ComponentModel.ISupportInitialize).EndInit()
