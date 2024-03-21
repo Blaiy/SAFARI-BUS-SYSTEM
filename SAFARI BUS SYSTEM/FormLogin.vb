@@ -17,7 +17,7 @@ Public Class FormLogin
         Try
             MySqlConn.Open()
             Dim Query As String
-            Query = "SELECT * FROM passengers WHERE email='" & TxtUsername.Text.ToLower & "'AND password='" & TxtPasswd.Text & "' "
+            Query = "SELECT * FROM passengers WHERE Email='" & TxtUsername.Text.ToLower & "'AND Password='" & TxtPasswd.Text & "' "
             'Dim IsAdminQuery = "SELECT * FROM passengers WHERE email='" & TxtUsername.Text.ToLower & "' AND is_Admin='1'"
             Command = New MySqlCommand(Query, MySqlConn)
             Reader = Command.ExecuteReader
