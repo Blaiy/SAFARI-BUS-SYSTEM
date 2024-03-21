@@ -20,5 +20,7 @@
         End If
     End Sub
 
-
+    Private Sub LblX_Click(sender As Object, e As EventArgs) Handles LblX.Click
+        Me.Close()
+    End Sub
 End Class

@@ -96,7 +96,11 @@ Partial Class FormBusLayout
         Label27 = New Label()
         Label28 = New Label()
         Label29 = New Label()
+<<<<<<< HEAD
         Panel1 = New Panel()
+=======
+        LblX = New Label()
+>>>>>>> 49206b59620b27f5c11bda1350c1a2ee48584abe
         CType(H1, ComponentModel.ISupportInitialize).BeginInit()
         CType(H2, ComponentModel.ISupportInitialize).BeginInit()
         CType(G1, ComponentModel.ISupportInitialize).BeginInit()
@@ -838,6 +842,7 @@ Partial Class FormBusLayout
         Label29.Size = New Size(100, 23)
         Label29.TabIndex = 0
         ' 
+
         ' Panel1
         ' 
         Panel1.BackColor = Color.LightGray
@@ -845,13 +850,25 @@ Partial Class FormBusLayout
         Panel1.Location = New Point(222, 0)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(337, 679)
-        Panel1.TabIndex = 138
+        Panel1.TabIndex = 1
+        ' LblX
+        ' 
+        LblX.AutoSize = True
+        LblX.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LblX.ForeColor = Color.Red
+        LblX.Location = New Point(527, 4)
+        LblX.Name = "LblX"
+        LblX.Size = New Size(20, 21)
+        LblX.TabIndex = 138
+        LblX.Text = "X"
+
         ' 
         ' FormBusLayout
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(559, 679)
+        Controls.Add(LblX)
         Controls.Add(Label29)
         Controls.Add(Label28)
         Controls.Add(Label27)
@@ -925,8 +942,13 @@ Partial Class FormBusLayout
         Controls.Add(Label7)
         Controls.Add(Label2)
         Controls.Add(Label1)
+<<<<<<< HEAD
         Controls.Add(Panel1)
+=======
+        FormBorderStyle = FormBorderStyle.None
+>>>>>>> 49206b59620b27f5c11bda1350c1a2ee48584abe
         Name = "FormBusLayout"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "SEAT BOOKINGS"
         CType(H1, ComponentModel.ISupportInitialize).EndInit()
         CType(H2, ComponentModel.ISupportInitialize).EndInit()
@@ -1046,5 +1068,9 @@ Partial Class FormBusLayout
     Friend WithEvents Label27 As Label
     Friend WithEvents Label28 As Label
     Friend WithEvents Label29 As Label
+<<<<<<< HEAD
     Friend WithEvents Panel1 As Panel
+=======
+    Friend WithEvents LblX As Label
+>>>>>>> 49206b59620b27f5c11bda1350c1a2ee48584abe
 End Class
