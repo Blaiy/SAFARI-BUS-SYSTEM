@@ -24,7 +24,7 @@ Partial Class FormBooking
     Private Sub InitializeComponent()
         ComBoxFrom = New ComboBox()
         ComBoxTo = New ComboBox()
-        DateTimePicker1 = New DateTimePicker()
+        DateTimePickerTicket = New DateTimePicker()
         ComBoxStation = New ComboBox()
         BtnBook = New Button()
         NmrcSeatNo = New NumericUpDown()
@@ -42,7 +42,7 @@ Partial Class FormBooking
         ' 
         ComBoxFrom.FormattingEnabled = True
         ComBoxFrom.Items.AddRange(New Object() {"MOMBASA", "NAIROBI", "NAKURU", "ELDORET", "KITALE", "MALABA"})
-        ComBoxFrom.Location = New Point(59, 79)
+        ComBoxFrom.Location = New Point(92, 88)
         ComBoxFrom.Margin = New Padding(3, 4, 3, 4)
         ComBoxFrom.Name = "ComBoxFrom"
         ComBoxFrom.Size = New Size(279, 29)
@@ -53,25 +53,28 @@ Partial Class FormBooking
         ' 
         ComBoxTo.FormattingEnabled = True
         ComBoxTo.Items.AddRange(New Object() {"MOMBASA", "NAIROBI", "NAKURU", "ELDORET", "KITALE", "MALABA"})
-        ComBoxTo.Location = New Point(59, 130)
+        ComBoxTo.Location = New Point(92, 139)
         ComBoxTo.Margin = New Padding(3, 4, 3, 4)
         ComBoxTo.Name = "ComBoxTo"
         ComBoxTo.Size = New Size(279, 29)
         ComBoxTo.TabIndex = 2
         ComBoxTo.Text = "To"
         ' 
-        ' DateTimePicker1
+        ' DateTimePickerTicket
         ' 
-        DateTimePicker1.Location = New Point(59, 179)
-        DateTimePicker1.Margin = New Padding(3, 4, 3, 4)
-        DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(279, 29)
-        DateTimePicker1.TabIndex = 3
+        DateTimePickerTicket.CustomFormat = "yyyy/MM/dd hh:mm:ss"
+        DateTimePickerTicket.Format = DateTimePickerFormat.Custom
+        DateTimePickerTicket.Location = New Point(92, 237)
+        DateTimePickerTicket.Margin = New Padding(3, 4, 3, 4)
+        DateTimePickerTicket.Name = "DateTimePickerTicket"
+        DateTimePickerTicket.Size = New Size(279, 29)
+        DateTimePickerTicket.TabIndex = 3
         ' 
         ' ComBoxStation
         ' 
         ComBoxStation.FormattingEnabled = True
-        ComBoxStation.Location = New Point(59, 232)
+        ComBoxStation.Items.AddRange(New Object() {"Station A", "Station B", "Station C", "Station D"})
+        ComBoxStation.Location = New Point(92, 187)
         ComBoxStation.Name = "ComBoxStation"
         ComBoxStation.Size = New Size(279, 29)
         ComBoxStation.TabIndex = 4
@@ -79,7 +82,7 @@ Partial Class FormBooking
         ' 
         ' BtnBook
         ' 
-        BtnBook.Location = New Point(138, 371)
+        BtnBook.Location = New Point(171, 380)
         BtnBook.Name = "BtnBook"
         BtnBook.Size = New Size(93, 31)
         BtnBook.TabIndex = 5
@@ -88,7 +91,7 @@ Partial Class FormBooking
         ' 
         ' NmrcSeatNo
         ' 
-        NmrcSeatNo.Location = New Point(127, 278)
+        NmrcSeatNo.Location = New Point(160, 287)
         NmrcSeatNo.Name = "NmrcSeatNo"
         NmrcSeatNo.Size = New Size(120, 29)
         NmrcSeatNo.TabIndex = 7
@@ -97,7 +100,7 @@ Partial Class FormBooking
         ' 
         LblSeatNo.AutoSize = True
         LblSeatNo.BorderStyle = BorderStyle.FixedSingle
-        LblSeatNo.Location = New Point(59, 280)
+        LblSeatNo.Location = New Point(92, 289)
         LblSeatNo.Name = "LblSeatNo"
         LblSeatNo.Size = New Size(64, 23)
         LblSeatNo.TabIndex = 8
@@ -105,7 +108,7 @@ Partial Class FormBooking
         ' 
         ' BtnLayout
         ' 
-        BtnLayout.Location = New Point(253, 276)
+        BtnLayout.Location = New Point(286, 285)
         BtnLayout.Name = "BtnLayout"
         BtnLayout.Size = New Size(98, 29)
         BtnLayout.TabIndex = 9
@@ -116,7 +119,7 @@ Partial Class FormBooking
         ' 
         LblHomeTitle.AutoSize = True
         LblHomeTitle.Font = New Font("Segoe Print", 12F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
-        LblHomeTitle.Location = New Point(222, 25)
+        LblHomeTitle.Location = New Point(121, 37)
         LblHomeTitle.Name = "LblHomeTitle"
         LblHomeTitle.Size = New Size(223, 28)
         LblHomeTitle.TabIndex = 10
@@ -124,7 +127,7 @@ Partial Class FormBooking
         ' 
         ' NmrcPrice
         ' 
-        NmrcPrice.Location = New Point(127, 321)
+        NmrcPrice.Location = New Point(160, 330)
         NmrcPrice.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
         NmrcPrice.Name = "NmrcPrice"
         NmrcPrice.Size = New Size(120, 29)
@@ -134,7 +137,7 @@ Partial Class FormBooking
         ' 
         LblPrice.AutoSize = True
         LblPrice.BorderStyle = BorderStyle.FixedSingle
-        LblPrice.Location = New Point(59, 321)
+        LblPrice.Location = New Point(92, 330)
         LblPrice.Name = "LblPrice"
         LblPrice.Size = New Size(41, 23)
         LblPrice.TabIndex = 8
@@ -142,7 +145,7 @@ Partial Class FormBooking
         ' 
         ' BtnPrices
         ' 
-        BtnPrices.Location = New Point(253, 321)
+        BtnPrices.Location = New Point(286, 330)
         BtnPrices.Name = "BtnPrices"
         BtnPrices.Size = New Size(98, 30)
         BtnPrices.TabIndex = 11
@@ -164,12 +167,13 @@ Partial Class FormBooking
         Controls.Add(NmrcSeatNo)
         Controls.Add(BtnBook)
         Controls.Add(ComBoxStation)
-        Controls.Add(DateTimePicker1)
+        Controls.Add(DateTimePickerTicket)
         Controls.Add(ComBoxTo)
         Controls.Add(ComBoxFrom)
         Font = New Font("Segoe Print", 9F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
         Margin = New Padding(3, 4, 3, 4)
         Name = "FormBooking"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "SAFARI BUS"
         CType(NmrcSeatNo, ComponentModel.ISupportInitialize).EndInit()
         CType(NmrcPrice, ComponentModel.ISupportInitialize).EndInit()
@@ -179,7 +183,7 @@ Partial Class FormBooking
 
     Friend WithEvents ComBoxFrom As ComboBox
     Friend WithEvents ComBoxTo As ComboBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents DateTimePickerTicket As DateTimePicker
     Friend WithEvents ComBoxStation As ComboBox
     Friend WithEvents BtnBook As Button
     Friend WithEvents NmrcSeatNo As NumericUpDown
